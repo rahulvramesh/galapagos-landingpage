@@ -133,6 +133,10 @@ img {
   padding-bottom: 70px;
 }
 
+.pt-50 {
+  padding-top: 50px;
+}
+
 .mb-30 {
   margin-bottom: 30px;
 }
@@ -5281,6 +5285,7 @@ Team CSS
   color: #20982d;
   font-size: 14px;
   margin-top: 6px;
+  font-weight: 600;
 }
 .single-instructor-box:hover .image {
   border-color: #20982d;
@@ -15303,4 +15308,39 @@ Buy Now Btn
   100% {
     transform: scale3d(1, 1, 1);
   }
+}
+.about-content {
+  text-align: justify;
+}
+.about-content .moto p {
+  font-weight: 700;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.title {
+  margin-bottom: 35px;
+  line-height: 1.4;
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.courses-price {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.price-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.price-wrapper span {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.instructor-details p {
+  text-align: justify;
 }/*# sourceMappingURL=style.css.map */
