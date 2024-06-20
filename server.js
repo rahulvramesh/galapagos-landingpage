@@ -1,13 +1,58 @@
 const express = require("express");
 const path = require("path");
 const fs = require("fs-extra");
+const Joi = require("joi");
 const cache = {};
+
+// Validation schema
+const schema = Joi.object({
+  name: Joi.string().min(3).max(30).required(),
+  email: Joi.string().email().required(),
+  whatsapp: Joi.string()
+    .pattern(/^[0-9]+$/)
+    .min(10)
+    .max(15)
+    .required(),
+  house: Joi.string().min(1).max(50).required(),
+  city: Joi.string().min(1).max(50).required(),
+  post: Joi.string().min(1).max(50).required(),
+  landmark: Joi.string().min(1).max(50).required(),
+  currentCourse: Joi.string().min(1).max(100).required(),
+  collage: Joi.string().min(1).max(100).required(),
+  lastCourseCompleted: Joi.string().min(1).max(100).required(),
+  yearOfJoining: Joi.number()
+    .integer()
+    .min(1900)
+    .max(new Date().getFullYear())
+    .required(),
+  yearOfCompletion: Joi.number()
+    .integer()
+    .min(1900)
+    .max(new Date().getFullYear())
+    .required(),
+  researchAreaOfInterest: Joi.string().min(1).max(100).required(),
+});
 
 const app = express();
 const port = 3000;
 
+// Middleware to parse JSON data
+app.use(express.json());
+
+app.post("/submit", (req, res) => {
+  const { error } = schema.validate(req.body);
+  if (error) {
+    return res.status(400).send(error.details[0].message);
+  }
+
+  // Here you can handle the data (e.g., save it to a database)
+  res.send("Data successfully submitted!");
+});
+
 // Middleware to serve static assets
 app.use("/assets", express.static(path.join(__dirname, "assets")));
+
+// Submit API
 
 // Serve robots.txt
 app.get("/robots.txt", (req, res) => {
