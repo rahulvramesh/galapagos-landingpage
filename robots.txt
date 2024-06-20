@@ -1,0 +1,6 @@
+# robots.txt
+# Allow all web crawlers to access all content
+User-agent: *
+
+# Sitemap (if you have one)
+Sitemap: https://galapagosedu.org/sitemap.xml
