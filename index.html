@@ -17,6 +17,9 @@
     <link rel="stylesheet" href="assets/css/flaticon.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <link href="
+    https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+    " rel="stylesheet">
     <link rel="stylesheet" href="assets/css/odometer.min.css">
     <link rel="stylesheet" href="assets/css/meanmenu.min.css">
     <link rel="stylesheet" href="assets/css/animate.min.css">
@@ -197,7 +200,7 @@
     <!-- End Search Box Layout -->
 
     <!-- Start Slider Area -->
-    <div class="slider_area">
+    <div class="slider_area" style="display: none;">
         <div id="rev_slider_1078_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container"
             data-alias="classic4export" data-source="gallery"
             style="margin:0px auto;background-color:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
@@ -205,30 +208,33 @@
             <div id="rev_slider_1078_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.4.1">
                 <ul>
                     <!-- SLIDE  -->
-                    <li data-thumb="assets/images/banner1.png" data-title="First Slide" >
+                    <li data-thumb="assets/images/banner1.png" data-title="First Slide">
                         <!-- MAIN IMAGE -->
-                        <img src="assets/images/banner1.png" alt="" data-bgposition="center center" class="rev-slidebg" data-no-retina>
+                        <img src="assets/images/banner1.png" alt="" data-bgposition="center center" class="rev-slidebg"
+                            data-no-retina>
                     </li>
 
                     <!-- SLIDE  -->
-                    <li  data-easein="Power4.easeInOut" data-thumb="assets/images/banner2.png"  data-title="Second Slide">
+                    <li data-easein="Power4.easeInOut" data-thumb="assets/images/banner2.png" data-title="Second Slide">
                         <!-- MAIN IMAGE -->
-                        <img src="assets/images/banner2.png" alt="" data-bgposition="center center"  class="rev-slidebg" data-no-retina>
+                        <img src="assets/images/banner2.png" alt="" data-bgposition="center center" class="rev-slidebg"
+                            data-no-retina>
 
 
                     </li>
 
                     <!-- SLIDE  -->
-                    <li  data-thumb="assets/images/banner3.png" data-title="Third Slide">
+                    <li data-thumb="assets/images/banner3.png" data-title="Third Slide">
                         <!-- MAIN IMAGE -->
                         <img src="assets/images/banner3.png" alt="" data-bgposition="center center" data-bgfit="cover"
                             data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
 
                     </li>
                     <!-- SLIDE  -->
-                    <li data-thumb="assets/images/banner4.png" data-title="Fourth Slide" >
+                    <li data-thumb="assets/images/banner4.png" data-title="Fourth Slide">
                         <!-- MAIN IMAGE -->
-                        <img src="assets/images/banner4.png" alt="" data-bgposition="center center" class="rev-slidebg" data-no-retina>
+                        <img src="assets/images/banner4.png" alt="" data-bgposition="center center" class="rev-slidebg"
+                            data-no-retina>
 
 
                     </li>
@@ -238,6 +244,27 @@
         </div><!-- END REVOLUTION SLIDER -->
     </div>
     <!-- End Slider Area -->
+
+
+    <!-- New Slider -->
+    <section class="splide" aria-label="Splide Basic HTML Example">
+        <div class="splide__track">
+            <ul class="splide__list">
+                <li class="splide__slide">
+                    <img src="assets/images/banner1.png" alt="GALAPAGOS The Life Science Island" class="banner-img">
+                </li>
+                <li class="splide__slide">
+                    <img src="assets/images/banner2.png" alt="GALAPAGOS The Life Science Island" class="banner-img">
+                </li>
+                <li class="splide__slide">
+                    <img src="assets/images/banner3.png" alt="GALAPAGOS The Life Science Island" class="banner-img">
+                </li>
+                <li class="splide__slide">
+                    <img src="assets/images/banner4.png" alt="GALAPAGOS The Life Science Island" class="banner-img">
+                </li>
+            </ul>
+        </div>
+    </section>
 
     <!-- Start About Area -->
     <section class="about-area ptb-100" style="display: none;">
@@ -356,8 +383,8 @@
                     <div class="col-lg-4 col-md-6 mix design development management photography">
                         <div class="single-courses-box mb-30">
                             <div class="courses-image">
-                                <a href="./course/cnet-bjrf.html" class="d-block"><img
-                                        src="assets/images/course1.png" alt="image"></a>
+                                <a href="./course/cnet-bjrf.html" class="d-block"><img src="assets/images/course1.png"
+                                        alt="image"></a>
                             </div>
 
                             <div class="courses-content">
@@ -385,8 +412,8 @@
                     <div class="col-lg-4 col-md-6 mix design development management photography">
                         <div class="single-courses-box mb-30">
                             <div class="courses-image">
-                                <a href="./course/npi-phd.html" class="d-block"><img
-                                        src="assets/images/course3.png" alt="image"></a>
+                                <a href="./course/npi-phd.html" class="d-block"><img src="assets/images/course3.png"
+                                        alt="image"></a>
                             </div>
 
                             <div class="courses-content">
@@ -399,8 +426,8 @@
                     <div class="col-lg-4 col-md-6 mix design development management photography">
                         <div class="single-courses-box mb-30">
                             <div class="courses-image">
-                                <a href="./course/ifa-support.html" class="d-block"><img
-                                        src="assets/images/course2.png" alt="image"></a>
+                                <a href="./course/ifa-support.html" class="d-block"><img src="assets/images/course2.png"
+                                        alt="image"></a>
                             </div>
 
                             <div class="courses-content">
@@ -534,7 +561,15 @@
                         <h3><a href="./mentor/nithin.html">Nithin Divakar</a></h3>
                     </div>
                 </div>
+                <div class="single-instructor-box mb-30">
+                    <div class="image">
+                        <img src="assets/images/afsal.png" alt="image">
+                    </div>
 
+                    <div class="content">
+                        <h3><a href="./mentor/afsal.html">Muhammed Afsal </a></h3>
+                    </div>
+                </div>
                 <div class="single-instructor-box mb-30">
                     <div class="image">
                         <img src="assets/images/Panchami.png" alt="image">
@@ -673,6 +708,10 @@
     <script src="assets/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
     <script src="assets/revolution/js/extensions/revolution.extension.video.min.js"></script>
     <script src="assets/js/rev-slider-custom.js"></script>
+
+    <script src="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+"></script>
 </body>
 
 </html>

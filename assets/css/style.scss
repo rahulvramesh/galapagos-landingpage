@@ -6636,7 +6636,6 @@ Team Details CSS
                     span {
                         display: block;
                         color: $main-color;
-                        text-transform: uppercase;
                         margin-bottom: 1px;
                         font: {
                             size: 14px;
@@ -6809,7 +6808,6 @@ Team Details CSS
                     span {
                         display: block;
                         color: $main-color;
-                        text-transform: uppercase;
                         margin-bottom: 1px;
                         font: {
                             size: 14px;
@@ -18228,6 +18226,9 @@ Buy Now Btn
         color: #000;
         text-transform: uppercase;
     }
+}
+.theme-dark .about-content .moto p {
+    color: #fff;
 }
 
 .title {

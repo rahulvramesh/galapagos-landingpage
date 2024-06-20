@@ -5509,7 +5509,6 @@ Team Details CSS
 .instructor-details-desc .instructor-details-sidebar .instructor-details-meta ul li span {
   display: block;
   color: #20982d;
-  text-transform: uppercase;
   margin-bottom: 1px;
   font-size: 14px;
   font-weight: 600;
@@ -5655,7 +5654,6 @@ Team Details CSS
 .instructor-details-desc .instructor-details .instructor-details-info ul li span {
   display: block;
   color: #20982d;
-  text-transform: uppercase;
   margin-bottom: 1px;
   font-size: 14px;
   font-weight: 600;
@@ -15316,6 +15314,10 @@ Buy Now Btn
   font-weight: 700;
   color: #000;
   text-transform: uppercase;
+}
+
+.theme-dark .about-content .moto p {
+  color: #fff;
 }
 
 .title {
