@@ -9,7 +9,7 @@ tpj(document).ready(function () {
       .revolution({
         responsiveLevels: [4064, 2048, 1024, 768, 480],
         fullScreenAutoWidth: "on",
-        sliderType: "carousel",
+        sliderType: "standard",
         jsFileLocation: "revolution/js/",
         sliderLayout: "auto",
         dottedOverlay: "none",
