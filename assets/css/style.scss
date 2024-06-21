@@ -101,6 +101,7 @@ p {
     margin-bottom: 15px;
     line-height: 1.7;
     color: $paragraph-color;
+    text-align: justify;
     font: {
         family: $optional-font-family;
         size: $font-size;
@@ -4421,6 +4422,7 @@ Courses CSS
     box-shadow: 0px 8px 16px 0px rgba(146, 184, 255, 0.2);
     border-radius: 5px 5px 0 0;
     transition: $transition;
+    height: calc(100% - 30px);
 
     .courses-image {
         border-radius: 5px 5px 0 0;
