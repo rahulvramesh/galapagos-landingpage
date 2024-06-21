@@ -22,12 +22,12 @@ const schema = Joi.object({
   landmark: Joi.string().min(1).max(50).required(),
   currentCourse: Joi.string().min(1).max(100).required(),
   collage: Joi.string().min(1).max(100).required(),
-  lastCourseCompleted: Joi.string().min(1).max(100).required(),
-  yearOfJoining: Joi.number()
-    .integer()
-    .min(1900)
-    .max(new Date().getFullYear())
-    .required(),
+  // lastCourseCompleted: Joi.string().min(1).max(100).required(),
+  // yearOfJoining: Joi.number()
+  //   .integer()
+  //   .min(1900)
+  //   .max(new Date().getFullYear())
+  //   .required(),
   yearOfCompletion: Joi.number()
     .integer()
     .min(1900)
@@ -73,11 +73,10 @@ app.post("/submit", async (req, res) => {
         <tr><th>City</th><td>${city}</td></tr>
         <tr><th>Post</th><td>${post}</td></tr>
         <tr><th>Landmark</th><td>${landmark}</td></tr>
-        <tr><th>Current Course</th><td>${currentCourse}</td></tr>
+        <tr><th>Current Course / Last Course Completed</th><td>${currentCourse}</td></tr>
         <tr><th>Collage</th><td>${collage}</td></tr>
-        <tr><th>Last Course Completed</th><td>${lastCourseCompleted}</td></tr>
         <tr><th>Year of Joining</th><td>${yearOfJoining}</td></tr>
-        <tr><th>Year of Completion</th><td>${yearOfCompletion}</td></tr>
+        <tr><th>Year of Completion / Expected Compltion</th><td>${yearOfCompletion}</td></tr>
         <tr><th>Research Area of Interest</th><td>${researchAreaOfInterest}</td></tr>
       </table>
     `;
