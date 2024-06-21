@@ -170,18 +170,18 @@ const getHtmlContent = async (filePath, page) => {
 };
 
 // Route to serve HTML files with or without .html extension
-app.get("/:page?", async (req, res) => {
-  const page = req.params.page || "index";
-  let filePath = path.join(__dirname, "html", `${page}.html`);
+app.get("/*?", async (req, res) => {
+  const pagePath = req.params[0] || "index";
+  let filePath = path.join(__dirname, "html", `${pagePath}.html`);
 
   try {
-    let htmlContent = await getHtmlContent(filePath, page);
+    let htmlContent = await getHtmlContent(filePath, pagePath);
     res.send(htmlContent);
   } catch (err) {
     // Check if the file exists without .html extension
-    filePath = path.join(__dirname, "html", page);
+    filePath = path.join(__dirname, "html", pagePath);
     try {
-      let htmlContent = await getHtmlContent(filePath, page);
+      let htmlContent = await getHtmlContent(filePath, pagePath);
       res.send(htmlContent);
     } catch (err) {
       res.status(404).send("Page not found");
