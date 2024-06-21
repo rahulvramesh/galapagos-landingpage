@@ -58,6 +58,13 @@
       
 
         <url>
+          <loc>https://galapagosedu.org/library</loc>
+          <changefreq>daily</changefreq>
+          <priority>0.8</priority>
+        </url>
+      
+
+        <url>
           <loc>https://galapagosedu.org/mentor/afsal</loc>
           <changefreq>daily</changefreq>
           <priority>0.8</priority>
@@ -157,6 +164,13 @@
 
         <url>
           <loc>https://galapagosedu.org/mentor</loc>
+          <changefreq>daily</changefreq>
+          <priority>0.8</priority>
+        </url>
+      
+
+        <url>
+          <loc>https://galapagosedu.org/register</loc>
           <changefreq>daily</changefreq>
           <priority>0.8</priority>
         </url>

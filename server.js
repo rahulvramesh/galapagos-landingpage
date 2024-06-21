@@ -137,10 +137,14 @@ const googleAnalyticsScript = `
 const generateOgTags = (page) => {
   const ogTags = `
     <meta property="og:title" content="GALAPAGOS - The Life Science Island" />
+    <meta property="og:site_name" content="GALAPAGOS.org - The Life Science Island">
     <meta property="og:description" content="The best online coaching for CSIR/GATE/PhD interviews both India and abroad. We are the only team with mentors trained in National Premier Institutes and International Institutes." />
     <meta property="og:url" content="https://galapagosedu.org" />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="https://galapagosedu.org/assets/images/logo.png" />
+    <meta property="twitter:image" content="https://galapagosedu.org/assets/images/logo.png">
+    <meta property="twitter:title" content="GALAPAGOS | The best online coaching for CSIR/GATE/PhD interviews both India and abroad. We are the only team with mentors trained in National Premier Institutes and International Institutes
+    <meta property="twitter:description" content="The best online coaching for CSIR/GATE/PhD interviews both India and abroad. We are the only team with mentors trained in National Premier Institutes and International Institutes.">
   `;
   return ogTags;
 };
