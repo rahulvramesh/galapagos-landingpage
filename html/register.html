@@ -460,10 +460,27 @@
                                 interest.
                             </div>
                         </div>
-                        <button type="submit" class="btn btn-primary">
-                            Submit
+                        <button type="submit" class="default-btn">
+                            <i class="bx bx-paper-plane icon-arrow before"></i
+                            ><span class="label">Enroll Now</span
+                            ><i class="bx bx-paper-plane icon-arrow after"></i>
                         </button>
                     </form>
+                    <div
+                        id="successMessage"
+                        class="alert alert-success mt-3"
+                        style="display: none"
+                    >
+                        Details submitted successfully! Will Contact You Soon.
+                    </div>
+                    <div
+                        id="errorMessage"
+                        class="alert alert-danger mt-3"
+                        style="display: none"
+                    >
+                        There was an error submitting the form. Please try
+                        again.
+                    </div>
 
                     <!-- <form id="contactForm">
                         <div class="row">
@@ -738,7 +755,7 @@
 
                                     $.ajax({
                                         type: "POST",
-                                        url: "/submit",
+                                        url: "http://localhost:3000/submit",
                                         data: JSON.stringify(formData),
                                         contentType: "application/json",
                                         success: function () {

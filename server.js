@@ -93,14 +93,11 @@ app.post("/submit", async (req, res) => {
     console.log({ data });
 
     // Here you can handle the data (e.g., save it to a database)
-    res.send("Data successfully submitted!");
+    return res.send({ status: "success" });
   } catch (err) {
     console.error("Error sending email:", err);
-    res.status(500).send("Internal Server Error");
+    return res.status(500).send("Internal Server Error");
   }
-
-  // Here you can handle the data (e.g., save it to a database)
-  res.send("Data successfully submitted!");
 });
 
 // Middleware to serve static assets
