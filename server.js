@@ -2,7 +2,10 @@ const express = require("express");
 const path = require("path");
 const fs = require("fs-extra");
 const Joi = require("joi");
+const resendObj = require("resend");
 const cache = {};
+
+const resend = new resendObj.Resend("re_fyBF61Wg_8Ygf4VUPtftjHcj6xRTgo1bt");
 
 // Validation schema
 const schema = Joi.object({
@@ -39,10 +42,61 @@ const port = 3000;
 // Middleware to parse JSON data
 app.use(express.json());
 
-app.post("/submit", (req, res) => {
+app.post("/submit", async (req, res) => {
   const { error } = schema.validate(req.body);
   if (error) {
     return res.status(400).send(error.details[0].message);
+  }
+
+  const {
+    name,
+    email,
+    whatsapp,
+    house,
+    city,
+    post,
+    landmark,
+    currentCourse,
+    collage,
+    lastCourseCompleted,
+    yearOfJoining,
+    yearOfCompletion,
+    researchAreaOfInterest,
+  } = req.body;
+
+  const emailContent = `
+      <table border="1">
+        <tr><th>Name</th><td>${name}</td></tr>
+        <tr><th>Email</th><td>${email}</td></tr>
+        <tr><th>WhatsApp</th><td>${whatsapp}</td></tr>
+        <tr><th>House</th><td>${house}</td></tr>
+        <tr><th>City</th><td>${city}</td></tr>
+        <tr><th>Post</th><td>${post}</td></tr>
+        <tr><th>Landmark</th><td>${landmark}</td></tr>
+        <tr><th>Current Course</th><td>${currentCourse}</td></tr>
+        <tr><th>Collage</th><td>${collage}</td></tr>
+        <tr><th>Last Course Completed</th><td>${lastCourseCompleted}</td></tr>
+        <tr><th>Year of Joining</th><td>${yearOfJoining}</td></tr>
+        <tr><th>Year of Completion</th><td>${yearOfCompletion}</td></tr>
+        <tr><th>Research Area of Interest</th><td>${researchAreaOfInterest}</td></tr>
+      </table>
+    `;
+
+  try {
+    const { data } = await resend.emails.send({
+      from: "Galapagose Lead <new-lead@mails.galapagosedu.org>",
+      to: ["academics@galapagosedu.org"],
+      subject: "New Lead On Site",
+      html: emailContent,
+    });
+
+    console.log({ data });
+
+    // Here you can handle the data (e.g., save it to a database)
+    res.send("Data successfully submitted!");
+  } catch (err) {
+    console.error("Error sending email:", err);
+    res.status(500).send("Internal Server Error");
   }
 
   // Here you can handle the data (e.g., save it to a database)
@@ -85,8 +139,8 @@ const googleAnalyticsScript = `
 // Function to generate OG tags
 const generateOgTags = (page) => {
   const ogTags = `
-    <meta property="og:title" content=""GALAPAGOS" The Life Science Island" />
-    <meta property="og:description" content=""GALAPAGOS" The Life Science Island" />
+    <meta property="og:title" content="GALAPAGOS - The Life Science Island" />
+    <meta property="og:description" content="The best online coaching for CSIR/GATE/PhD interviews both India and abroad. We are the only team with mentors trained in National Premier Institutes and International Institutes." />
     <meta property="og:url" content="https://galapagosedu.org" />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="https://galapagosedu.org/assets/images/logo.png" />
@@ -105,9 +159,9 @@ const injectTags = (htmlContent, page) => {
 
 // Function to read and cache the HTML file
 const getHtmlContent = async (filePath, page) => {
-  if (cache[filePath]) {
-    return cache[filePath];
-  }
+  // if (cache[filePath]) {
+  //   return cache[filePath];
+  // }
   const htmlContent = await fs.readFile(filePath, "utf8");
   const modifiedContent = injectTags(htmlContent, page);
   cache[filePath] = modifiedContent;
