@@ -15353,4 +15353,9 @@ Buy Now Btn
 
 .instructor-details p {
   text-align: justify;
+}
+
+.library-image {
+  border: 1px solid #ccc;
+  border-radius: 3px;
 }/*# sourceMappingURL=style.css.map */
