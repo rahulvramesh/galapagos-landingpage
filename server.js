@@ -16,10 +16,10 @@ const schema = Joi.object({
     .min(10)
     .max(15)
     .required(),
-  house: Joi.string().min(1).max(50).required(),
-  city: Joi.string().min(1).max(50).required(),
-  post: Joi.string().min(1).max(50).required(),
-  landmark: Joi.string().min(1).max(50).required(),
+  house: Joi.string().min(1).max(100).required(),
+  city: Joi.string().min(1).max(100).required(),
+  post: Joi.string().min(1).max(100).required(),
+  landmark: Joi.string().min(1).max(100).required(),
   currentCourse: Joi.string().min(1).max(100).required(),
   collage: Joi.string().min(1).max(100).required(),
   // lastCourseCompleted: Joi.string().min(1).max(100).required(),
