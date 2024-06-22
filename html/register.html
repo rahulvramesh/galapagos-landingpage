@@ -754,8 +754,14 @@
                                                 "was-validated",
                                             );
                                         },
-                                        error: function () {
-                                            $("#errorMessage").show();
+                                        error: function (jqXHR) {
+                                            var errorMessage =
+                                                jqXHR.responseJSON
+                                                    ? jqXHR.responseJSON.message
+                                                    : "There was an error submitting the form. Please try again.";
+                                            $("#errorMessage")
+                                                .text(errorMessage)
+                                                .show();
                                             $("#successMessage").hide();
                                         },
                                     });

@@ -9,31 +9,27 @@ const resend = new resendObj.Resend("re_fyBF61Wg_8Ygf4VUPtftjHcj6xRTgo1bt");
 
 // Validation schema
 const schema = Joi.object({
-  name: Joi.string().min(3).max(30).required(),
+  name: Joi.string().min(3).required(),
   email: Joi.string().email().required(),
   whatsapp: Joi.string()
     .pattern(/^[0-9]+$/)
     .min(10)
     .max(15)
     .required(),
-  house: Joi.string().min(1).max(100).required(),
-  city: Joi.string().min(1).max(100).required(),
-  post: Joi.string().min(1).max(100).required(),
-  landmark: Joi.string().min(1).max(100).required(),
-  currentCourse: Joi.string().min(1).max(100).required(),
-  collage: Joi.string().min(1).max(100).required(),
+  house: Joi.string().min(1).required(),
+  city: Joi.string().min(1).required(),
+  post: Joi.string().min(1).required(),
+  landmark: Joi.string().min(1).required(),
+  currentCourse: Joi.string().min(1).required(),
+  collage: Joi.string().min(1).required(),
   // lastCourseCompleted: Joi.string().min(1).max(100).required(),
   // yearOfJoining: Joi.number()
   //   .integer()
   //   .min(1900)
   //   .max(new Date().getFullYear())
   //   .required(),
-  yearOfCompletion: Joi.number()
-    .integer()
-    .min(1900)
-    .max(new Date().getFullYear())
-    .required(),
-  researchAreaOfInterest: Joi.string().min(1).max(100).required(),
+  yearOfCompletion: Joi.number().integer().required(),
+  researchAreaOfInterest: Joi.string().min(1).required(),
 });
 
 const app = express();
@@ -45,7 +41,8 @@ app.use(express.json());
 app.post("/submit", async (req, res) => {
   const { error } = schema.validate(req.body);
   if (error) {
-    return res.status(400).send(error.details[0].message);
+    console.log(error);
+    return res.status(400).json({ message: error.details[0].message });
   }
 
   const {
