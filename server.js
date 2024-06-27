@@ -162,6 +162,10 @@ const getHtmlContent = async (filePath, page) => {
   const htmlContent = await fs.readFile(filePath, "utf8");
   const modifiedContent = injectTags(htmlContent, page);
   cache[filePath] = modifiedContent;
+
+  const publishPath = path.join(__dirname, "publish", `${page}`);
+  await fs.outputFile(publishPath, modifiedContent);
+
   return modifiedContent;
 };
 
