@@ -15382,4 +15382,15 @@ Buy Now Btn
 .register-exam h1 {
   color: #0023a0;
   text-align: center;
+}
+
+.exam-ad {
+  max-width: 800px;
+  width: 100%;
+  padding: 10px 20px;
+  margin: auto;
+}
+.exam-ad img {
+  width: 100%;
+  margin-top: 30px;
 }/*# sourceMappingURL=style.css.map */
