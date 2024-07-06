@@ -79,7 +79,9 @@ a:hover, a:focus {
   text-decoration: none;
 }
 
-input, button, a {
+input,
+button,
+a {
   outline: 0 !important;
 }
 
@@ -171,18 +173,40 @@ img {
 }
 
 .bg-F7F9FB {
-  background-color: #F7F9FB;
+  background-color: #f7f9fb;
 }
 
 .bg-e6fbff {
   background-color: #e6fbff;
 }
 
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #252525;
   font-family: "Poppins", sans-serif;
 }
-.h1:last-child, .h2:last-child, .h3:last-child, .h4:last-child, .h5:last-child, .h6:last-child, h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, h6:last-child {
+.h1:last-child,
+.h2:last-child,
+.h3:last-child,
+.h4:last-child,
+.h5:last-child,
+.h6:last-child,
+h1:last-child,
+h2:last-child,
+h3:last-child,
+h4:last-child,
+h5:last-child,
+h6:last-child {
   margin-bottom: 0;
 }
 
@@ -205,7 +229,8 @@ img {
   font-size: 14.5px;
   font-weight: 700;
 }
-.default-btn .label, .default-btn .icon-arrow {
+.default-btn .label,
+.default-btn .icon-arrow {
   backface-visibility: hidden;
   transform: translateZ(0);
   perspective: 1000;
@@ -530,7 +555,7 @@ Header CSS
 }
 
 .top-header-style-three {
-  background-color: #1D1D1D;
+  background-color: #1d1d1d;
   padding-top: 0;
   padding-bottom: 0;
 }
@@ -2353,32 +2378,38 @@ Main Banner CSS
     opacity: 0;
   }
 }
-.slider_area .tp-caption.NotGeneric-Icon, .slider_area .tp-caption .NotGeneric-Icon {
+.slider_area .tp-caption.NotGeneric-Icon,
+.slider_area .tp-caption .NotGeneric-Icon {
   text-transform: uppercase !important;
   letter-spacing: 1px !important;
   font-size: 14px !important;
   font-weight: 600 !important;
   font-family: "Poppins", sans-serif !important;
 }
-.slider_area .tp-caption.NotGeneric-Title, .slider_area .tp-caption .NotGeneric-Title {
+.slider_area .tp-caption.NotGeneric-Title,
+.slider_area .tp-caption .NotGeneric-Title {
   letter-spacing: 0 !important;
   font-size: 58px !important;
   font-weight: 700 !important;
   font-family: "Poppins", sans-serif !important;
 }
-.slider_area .tp-caption.NotGeneric-SubTitle, .slider_area .tp-caption .NotGeneric-SubTitle {
+.slider_area .tp-caption.NotGeneric-SubTitle,
+.slider_area .tp-caption .NotGeneric-SubTitle {
   letter-spacing: 0 !important;
   font-size: 16px !important;
   font-weight: 500 !important;
   font-family: "Open Sans", sans-serif !important;
 }
-.slider_area .tp-caption.NotGeneric-btn .default-btn, .slider_area .tp-caption .NotGeneric-btn .default-btn {
+.slider_area .tp-caption.NotGeneric-btn .default-btn,
+.slider_area .tp-caption .NotGeneric-btn .default-btn {
   transition: 0.5s !important;
 }
-.slider_area .tp-caption.NotGeneric-btn .default-btn .icon-arrow, .slider_area .tp-caption .NotGeneric-btn .default-btn .icon-arrow {
+.slider_area .tp-caption.NotGeneric-btn .default-btn .icon-arrow,
+.slider_area .tp-caption .NotGeneric-btn .default-btn .icon-arrow {
   transition: transform 0.5s cubic-bezier(0.86, 0, 0.07, 1), opacity 0.4s cubic-bezier(0.86, 0, 0.07, 1) !important;
 }
-.slider_area .tp-caption.NotGeneric-btn .default-btn .label, .slider_area .tp-caption .NotGeneric-btn .default-btn .label {
+.slider_area .tp-caption.NotGeneric-btn .default-btn .label,
+.slider_area .tp-caption .NotGeneric-btn .default-btn .label {
   transition: transform 0.5s cubic-bezier(0.86, 0, 0.07, 1) !important;
 }
 .slider_area .metis .tp-bullet {
@@ -2986,38 +3017,68 @@ Courses Categories CSS
   bottom: 18px;
 }
 
-.owl-item:nth-child(2) .single-categories-courses-box, .owl-item:nth-child(8) .single-categories-courses-box, .col-lg-3:nth-child(2) .single-categories-courses-box, .col-lg-3:nth-child(8) .single-categories-courses-box {
+.owl-item:nth-child(2) .single-categories-courses-box, .owl-item:nth-child(8) .single-categories-courses-box,
+.col-lg-3:nth-child(2) .single-categories-courses-box,
+.col-lg-3:nth-child(8) .single-categories-courses-box {
   background-color: #fea116;
 }
-.owl-item:nth-child(2) .single-categories-courses-box:hover .icon, .owl-item:nth-child(2) .single-categories-courses-box:focus .icon, .owl-item:nth-child(8) .single-categories-courses-box:hover .icon, .owl-item:nth-child(8) .single-categories-courses-box:focus .icon, .col-lg-3:nth-child(2) .single-categories-courses-box:hover .icon, .col-lg-3:nth-child(2) .single-categories-courses-box:focus .icon, .col-lg-3:nth-child(8) .single-categories-courses-box:hover .icon, .col-lg-3:nth-child(8) .single-categories-courses-box:focus .icon {
+.owl-item:nth-child(2) .single-categories-courses-box:hover .icon, .owl-item:nth-child(2) .single-categories-courses-box:focus .icon, .owl-item:nth-child(8) .single-categories-courses-box:hover .icon, .owl-item:nth-child(8) .single-categories-courses-box:focus .icon,
+.col-lg-3:nth-child(2) .single-categories-courses-box:hover .icon,
+.col-lg-3:nth-child(2) .single-categories-courses-box:focus .icon,
+.col-lg-3:nth-child(8) .single-categories-courses-box:hover .icon,
+.col-lg-3:nth-child(8) .single-categories-courses-box:focus .icon {
   border-color: #fea116;
   color: #fea116;
 }
-.owl-item:nth-child(3) .single-categories-courses-box, .owl-item:nth-child(9) .single-categories-courses-box, .col-lg-3:nth-child(3) .single-categories-courses-box, .col-lg-3:nth-child(9) .single-categories-courses-box {
+.owl-item:nth-child(3) .single-categories-courses-box, .owl-item:nth-child(9) .single-categories-courses-box,
+.col-lg-3:nth-child(3) .single-categories-courses-box,
+.col-lg-3:nth-child(9) .single-categories-courses-box {
   background-color: #1cb5a3;
 }
-.owl-item:nth-child(3) .single-categories-courses-box:hover .icon, .owl-item:nth-child(3) .single-categories-courses-box:focus .icon, .owl-item:nth-child(9) .single-categories-courses-box:hover .icon, .owl-item:nth-child(9) .single-categories-courses-box:focus .icon, .col-lg-3:nth-child(3) .single-categories-courses-box:hover .icon, .col-lg-3:nth-child(3) .single-categories-courses-box:focus .icon, .col-lg-3:nth-child(9) .single-categories-courses-box:hover .icon, .col-lg-3:nth-child(9) .single-categories-courses-box:focus .icon {
+.owl-item:nth-child(3) .single-categories-courses-box:hover .icon, .owl-item:nth-child(3) .single-categories-courses-box:focus .icon, .owl-item:nth-child(9) .single-categories-courses-box:hover .icon, .owl-item:nth-child(9) .single-categories-courses-box:focus .icon,
+.col-lg-3:nth-child(3) .single-categories-courses-box:hover .icon,
+.col-lg-3:nth-child(3) .single-categories-courses-box:focus .icon,
+.col-lg-3:nth-child(9) .single-categories-courses-box:hover .icon,
+.col-lg-3:nth-child(9) .single-categories-courses-box:focus .icon {
   border-color: #1cb5a3;
   color: #1cb5a3;
 }
-.owl-item:nth-child(4) .single-categories-courses-box, .owl-item:nth-child(10) .single-categories-courses-box, .col-lg-3:nth-child(4) .single-categories-courses-box, .col-lg-3:nth-child(10) .single-categories-courses-box {
+.owl-item:nth-child(4) .single-categories-courses-box, .owl-item:nth-child(10) .single-categories-courses-box,
+.col-lg-3:nth-child(4) .single-categories-courses-box,
+.col-lg-3:nth-child(10) .single-categories-courses-box {
   background-color: #3d64ff;
 }
-.owl-item:nth-child(4) .single-categories-courses-box:hover .icon, .owl-item:nth-child(4) .single-categories-courses-box:focus .icon, .owl-item:nth-child(10) .single-categories-courses-box:hover .icon, .owl-item:nth-child(10) .single-categories-courses-box:focus .icon, .col-lg-3:nth-child(4) .single-categories-courses-box:hover .icon, .col-lg-3:nth-child(4) .single-categories-courses-box:focus .icon, .col-lg-3:nth-child(10) .single-categories-courses-box:hover .icon, .col-lg-3:nth-child(10) .single-categories-courses-box:focus .icon {
+.owl-item:nth-child(4) .single-categories-courses-box:hover .icon, .owl-item:nth-child(4) .single-categories-courses-box:focus .icon, .owl-item:nth-child(10) .single-categories-courses-box:hover .icon, .owl-item:nth-child(10) .single-categories-courses-box:focus .icon,
+.col-lg-3:nth-child(4) .single-categories-courses-box:hover .icon,
+.col-lg-3:nth-child(4) .single-categories-courses-box:focus .icon,
+.col-lg-3:nth-child(10) .single-categories-courses-box:hover .icon,
+.col-lg-3:nth-child(10) .single-categories-courses-box:focus .icon {
   border-color: #3d64ff;
   color: #3d64ff;
 }
-.owl-item:nth-child(5) .single-categories-courses-box, .owl-item:nth-child(11) .single-categories-courses-box, .col-lg-3:nth-child(5) .single-categories-courses-box, .col-lg-3:nth-child(11) .single-categories-courses-box {
+.owl-item:nth-child(5) .single-categories-courses-box, .owl-item:nth-child(11) .single-categories-courses-box,
+.col-lg-3:nth-child(5) .single-categories-courses-box,
+.col-lg-3:nth-child(11) .single-categories-courses-box {
   background-color: #e74d57;
 }
-.owl-item:nth-child(5) .single-categories-courses-box:hover .icon, .owl-item:nth-child(5) .single-categories-courses-box:focus .icon, .owl-item:nth-child(11) .single-categories-courses-box:hover .icon, .owl-item:nth-child(11) .single-categories-courses-box:focus .icon, .col-lg-3:nth-child(5) .single-categories-courses-box:hover .icon, .col-lg-3:nth-child(5) .single-categories-courses-box:focus .icon, .col-lg-3:nth-child(11) .single-categories-courses-box:hover .icon, .col-lg-3:nth-child(11) .single-categories-courses-box:focus .icon {
+.owl-item:nth-child(5) .single-categories-courses-box:hover .icon, .owl-item:nth-child(5) .single-categories-courses-box:focus .icon, .owl-item:nth-child(11) .single-categories-courses-box:hover .icon, .owl-item:nth-child(11) .single-categories-courses-box:focus .icon,
+.col-lg-3:nth-child(5) .single-categories-courses-box:hover .icon,
+.col-lg-3:nth-child(5) .single-categories-courses-box:focus .icon,
+.col-lg-3:nth-child(11) .single-categories-courses-box:hover .icon,
+.col-lg-3:nth-child(11) .single-categories-courses-box:focus .icon {
   border-color: #e74d57;
   color: #e74d57;
 }
-.owl-item:nth-child(6) .single-categories-courses-box, .owl-item:nth-child(12) .single-categories-courses-box, .col-lg-3:nth-child(6) .single-categories-courses-box, .col-lg-3:nth-child(12) .single-categories-courses-box {
+.owl-item:nth-child(6) .single-categories-courses-box, .owl-item:nth-child(12) .single-categories-courses-box,
+.col-lg-3:nth-child(6) .single-categories-courses-box,
+.col-lg-3:nth-child(12) .single-categories-courses-box {
   background-color: #9764df;
 }
-.owl-item:nth-child(6) .single-categories-courses-box:hover .icon, .owl-item:nth-child(6) .single-categories-courses-box:focus .icon, .owl-item:nth-child(12) .single-categories-courses-box:hover .icon, .owl-item:nth-child(12) .single-categories-courses-box:focus .icon, .col-lg-3:nth-child(6) .single-categories-courses-box:hover .icon, .col-lg-3:nth-child(6) .single-categories-courses-box:focus .icon, .col-lg-3:nth-child(12) .single-categories-courses-box:hover .icon, .col-lg-3:nth-child(12) .single-categories-courses-box:focus .icon {
+.owl-item:nth-child(6) .single-categories-courses-box:hover .icon, .owl-item:nth-child(6) .single-categories-courses-box:focus .icon, .owl-item:nth-child(12) .single-categories-courses-box:hover .icon, .owl-item:nth-child(12) .single-categories-courses-box:focus .icon,
+.col-lg-3:nth-child(6) .single-categories-courses-box:hover .icon,
+.col-lg-3:nth-child(6) .single-categories-courses-box:focus .icon,
+.col-lg-3:nth-child(12) .single-categories-courses-box:hover .icon,
+.col-lg-3:nth-child(12) .single-categories-courses-box:focus .icon {
   border-color: #9764df;
   color: #9764df;
 }
@@ -3067,76 +3128,140 @@ Courses Categories CSS
   height: 100%;
 }
 
-.owl-item:nth-child(2) .single-courses-category a i, .owl-item:nth-child(11) .single-courses-category a i, .col-lg-3:nth-child(2) .single-courses-category a i, .col-lg-3:nth-child(11) .single-courses-category a i {
+.owl-item:nth-child(2) .single-courses-category a i, .owl-item:nth-child(11) .single-courses-category a i,
+.col-lg-3:nth-child(2) .single-courses-category a i,
+.col-lg-3:nth-child(11) .single-courses-category a i {
   color: #0eb582;
 }
-.owl-item:nth-child(2) .single-courses-category a::before, .owl-item:nth-child(11) .single-courses-category a::before, .col-lg-3:nth-child(2) .single-courses-category a::before, .col-lg-3:nth-child(11) .single-courses-category a::before {
+.owl-item:nth-child(2) .single-courses-category a::before, .owl-item:nth-child(11) .single-courses-category a::before,
+.col-lg-3:nth-child(2) .single-courses-category a::before,
+.col-lg-3:nth-child(11) .single-courses-category a::before {
   background-color: #0eb582;
 }
-.owl-item:nth-child(2) .single-courses-category a:hover i, .owl-item:nth-child(2) .single-courses-category a:focus i, .owl-item:nth-child(11) .single-courses-category a:hover i, .owl-item:nth-child(11) .single-courses-category a:focus i, .col-lg-3:nth-child(2) .single-courses-category a:hover i, .col-lg-3:nth-child(2) .single-courses-category a:focus i, .col-lg-3:nth-child(11) .single-courses-category a:hover i, .col-lg-3:nth-child(11) .single-courses-category a:focus i {
+.owl-item:nth-child(2) .single-courses-category a:hover i, .owl-item:nth-child(2) .single-courses-category a:focus i, .owl-item:nth-child(11) .single-courses-category a:hover i, .owl-item:nth-child(11) .single-courses-category a:focus i,
+.col-lg-3:nth-child(2) .single-courses-category a:hover i,
+.col-lg-3:nth-child(2) .single-courses-category a:focus i,
+.col-lg-3:nth-child(11) .single-courses-category a:hover i,
+.col-lg-3:nth-child(11) .single-courses-category a:focus i {
   color: #ffffff;
 }
-.owl-item:nth-child(3) .single-courses-category a i, .owl-item:nth-child(12) .single-courses-category a i, .col-lg-3:nth-child(3) .single-courses-category a i, .col-lg-3:nth-child(12) .single-courses-category a i {
+.owl-item:nth-child(3) .single-courses-category a i, .owl-item:nth-child(12) .single-courses-category a i,
+.col-lg-3:nth-child(3) .single-courses-category a i,
+.col-lg-3:nth-child(12) .single-courses-category a i {
   color: #0093c9;
 }
-.owl-item:nth-child(3) .single-courses-category a::before, .owl-item:nth-child(12) .single-courses-category a::before, .col-lg-3:nth-child(3) .single-courses-category a::before, .col-lg-3:nth-child(12) .single-courses-category a::before {
+.owl-item:nth-child(3) .single-courses-category a::before, .owl-item:nth-child(12) .single-courses-category a::before,
+.col-lg-3:nth-child(3) .single-courses-category a::before,
+.col-lg-3:nth-child(12) .single-courses-category a::before {
   background-color: #0093c9;
 }
-.owl-item:nth-child(3) .single-courses-category a:hover i, .owl-item:nth-child(3) .single-courses-category a:focus i, .owl-item:nth-child(12) .single-courses-category a:hover i, .owl-item:nth-child(12) .single-courses-category a:focus i, .col-lg-3:nth-child(3) .single-courses-category a:hover i, .col-lg-3:nth-child(3) .single-courses-category a:focus i, .col-lg-3:nth-child(12) .single-courses-category a:hover i, .col-lg-3:nth-child(12) .single-courses-category a:focus i {
+.owl-item:nth-child(3) .single-courses-category a:hover i, .owl-item:nth-child(3) .single-courses-category a:focus i, .owl-item:nth-child(12) .single-courses-category a:hover i, .owl-item:nth-child(12) .single-courses-category a:focus i,
+.col-lg-3:nth-child(3) .single-courses-category a:hover i,
+.col-lg-3:nth-child(3) .single-courses-category a:focus i,
+.col-lg-3:nth-child(12) .single-courses-category a:hover i,
+.col-lg-3:nth-child(12) .single-courses-category a:focus i {
   color: #ffffff;
 }
-.owl-item:nth-child(4) .single-courses-category a i, .owl-item:nth-child(13) .single-courses-category a i, .col-lg-3:nth-child(4) .single-courses-category a i, .col-lg-3:nth-child(13) .single-courses-category a i {
+.owl-item:nth-child(4) .single-courses-category a i, .owl-item:nth-child(13) .single-courses-category a i,
+.col-lg-3:nth-child(4) .single-courses-category a i,
+.col-lg-3:nth-child(13) .single-courses-category a i {
   color: #2d3942;
 }
-.owl-item:nth-child(4) .single-courses-category a::before, .owl-item:nth-child(13) .single-courses-category a::before, .col-lg-3:nth-child(4) .single-courses-category a::before, .col-lg-3:nth-child(13) .single-courses-category a::before {
+.owl-item:nth-child(4) .single-courses-category a::before, .owl-item:nth-child(13) .single-courses-category a::before,
+.col-lg-3:nth-child(4) .single-courses-category a::before,
+.col-lg-3:nth-child(13) .single-courses-category a::before {
   background-color: #2d3942;
 }
-.owl-item:nth-child(4) .single-courses-category a:hover i, .owl-item:nth-child(4) .single-courses-category a:focus i, .owl-item:nth-child(13) .single-courses-category a:hover i, .owl-item:nth-child(13) .single-courses-category a:focus i, .col-lg-3:nth-child(4) .single-courses-category a:hover i, .col-lg-3:nth-child(4) .single-courses-category a:focus i, .col-lg-3:nth-child(13) .single-courses-category a:hover i, .col-lg-3:nth-child(13) .single-courses-category a:focus i {
+.owl-item:nth-child(4) .single-courses-category a:hover i, .owl-item:nth-child(4) .single-courses-category a:focus i, .owl-item:nth-child(13) .single-courses-category a:hover i, .owl-item:nth-child(13) .single-courses-category a:focus i,
+.col-lg-3:nth-child(4) .single-courses-category a:hover i,
+.col-lg-3:nth-child(4) .single-courses-category a:focus i,
+.col-lg-3:nth-child(13) .single-courses-category a:hover i,
+.col-lg-3:nth-child(13) .single-courses-category a:focus i {
   color: #ffffff;
 }
-.owl-item:nth-child(5) .single-courses-category a i, .owl-item:nth-child(14) .single-courses-category a i, .col-lg-3:nth-child(5) .single-courses-category a i, .col-lg-3:nth-child(14) .single-courses-category a i {
+.owl-item:nth-child(5) .single-courses-category a i, .owl-item:nth-child(14) .single-courses-category a i,
+.col-lg-3:nth-child(5) .single-courses-category a i,
+.col-lg-3:nth-child(14) .single-courses-category a i {
   color: #bfd131;
 }
-.owl-item:nth-child(5) .single-courses-category a::before, .owl-item:nth-child(14) .single-courses-category a::before, .col-lg-3:nth-child(5) .single-courses-category a::before, .col-lg-3:nth-child(14) .single-courses-category a::before {
+.owl-item:nth-child(5) .single-courses-category a::before, .owl-item:nth-child(14) .single-courses-category a::before,
+.col-lg-3:nth-child(5) .single-courses-category a::before,
+.col-lg-3:nth-child(14) .single-courses-category a::before {
   background-color: #bfd131;
 }
-.owl-item:nth-child(5) .single-courses-category a:hover i, .owl-item:nth-child(5) .single-courses-category a:focus i, .owl-item:nth-child(14) .single-courses-category a:hover i, .owl-item:nth-child(14) .single-courses-category a:focus i, .col-lg-3:nth-child(5) .single-courses-category a:hover i, .col-lg-3:nth-child(5) .single-courses-category a:focus i, .col-lg-3:nth-child(14) .single-courses-category a:hover i, .col-lg-3:nth-child(14) .single-courses-category a:focus i {
+.owl-item:nth-child(5) .single-courses-category a:hover i, .owl-item:nth-child(5) .single-courses-category a:focus i, .owl-item:nth-child(14) .single-courses-category a:hover i, .owl-item:nth-child(14) .single-courses-category a:focus i,
+.col-lg-3:nth-child(5) .single-courses-category a:hover i,
+.col-lg-3:nth-child(5) .single-courses-category a:focus i,
+.col-lg-3:nth-child(14) .single-courses-category a:hover i,
+.col-lg-3:nth-child(14) .single-courses-category a:focus i {
   color: #ffffff;
 }
-.owl-item:nth-child(6) .single-courses-category a i, .owl-item:nth-child(15) .single-courses-category a i, .col-lg-3:nth-child(6) .single-courses-category a i, .col-lg-3:nth-child(15) .single-courses-category a i {
+.owl-item:nth-child(6) .single-courses-category a i, .owl-item:nth-child(15) .single-courses-category a i,
+.col-lg-3:nth-child(6) .single-courses-category a i,
+.col-lg-3:nth-child(15) .single-courses-category a i {
   color: #f49b29;
 }
-.owl-item:nth-child(6) .single-courses-category a::before, .owl-item:nth-child(15) .single-courses-category a::before, .col-lg-3:nth-child(6) .single-courses-category a::before, .col-lg-3:nth-child(15) .single-courses-category a::before {
+.owl-item:nth-child(6) .single-courses-category a::before, .owl-item:nth-child(15) .single-courses-category a::before,
+.col-lg-3:nth-child(6) .single-courses-category a::before,
+.col-lg-3:nth-child(15) .single-courses-category a::before {
   background-color: #f49b29;
 }
-.owl-item:nth-child(6) .single-courses-category a:hover i, .owl-item:nth-child(6) .single-courses-category a:focus i, .owl-item:nth-child(15) .single-courses-category a:hover i, .owl-item:nth-child(15) .single-courses-category a:focus i, .col-lg-3:nth-child(6) .single-courses-category a:hover i, .col-lg-3:nth-child(6) .single-courses-category a:focus i, .col-lg-3:nth-child(15) .single-courses-category a:hover i, .col-lg-3:nth-child(15) .single-courses-category a:focus i {
+.owl-item:nth-child(6) .single-courses-category a:hover i, .owl-item:nth-child(6) .single-courses-category a:focus i, .owl-item:nth-child(15) .single-courses-category a:hover i, .owl-item:nth-child(15) .single-courses-category a:focus i,
+.col-lg-3:nth-child(6) .single-courses-category a:hover i,
+.col-lg-3:nth-child(6) .single-courses-category a:focus i,
+.col-lg-3:nth-child(15) .single-courses-category a:hover i,
+.col-lg-3:nth-child(15) .single-courses-category a:focus i {
   color: #ffffff;
 }
-.owl-item:nth-child(7) .single-courses-category a i, .owl-item:nth-child(1165) .single-courses-category a i, .col-lg-3:nth-child(7) .single-courses-category a i, .col-lg-3:nth-child(1165) .single-courses-category a i {
+.owl-item:nth-child(7) .single-courses-category a i, .owl-item:nth-child(1165) .single-courses-category a i,
+.col-lg-3:nth-child(7) .single-courses-category a i,
+.col-lg-3:nth-child(1165) .single-courses-category a i {
   color: #833a8d;
 }
-.owl-item:nth-child(7) .single-courses-category a::before, .owl-item:nth-child(1165) .single-courses-category a::before, .col-lg-3:nth-child(7) .single-courses-category a::before, .col-lg-3:nth-child(1165) .single-courses-category a::before {
+.owl-item:nth-child(7) .single-courses-category a::before, .owl-item:nth-child(1165) .single-courses-category a::before,
+.col-lg-3:nth-child(7) .single-courses-category a::before,
+.col-lg-3:nth-child(1165) .single-courses-category a::before {
   background-color: #833a8d;
 }
-.owl-item:nth-child(7) .single-courses-category a:hover i, .owl-item:nth-child(7) .single-courses-category a:focus i, .owl-item:nth-child(1165) .single-courses-category a:hover i, .owl-item:nth-child(1165) .single-courses-category a:focus i, .col-lg-3:nth-child(7) .single-courses-category a:hover i, .col-lg-3:nth-child(7) .single-courses-category a:focus i, .col-lg-3:nth-child(1165) .single-courses-category a:hover i, .col-lg-3:nth-child(1165) .single-courses-category a:focus i {
+.owl-item:nth-child(7) .single-courses-category a:hover i, .owl-item:nth-child(7) .single-courses-category a:focus i, .owl-item:nth-child(1165) .single-courses-category a:hover i, .owl-item:nth-child(1165) .single-courses-category a:focus i,
+.col-lg-3:nth-child(7) .single-courses-category a:hover i,
+.col-lg-3:nth-child(7) .single-courses-category a:focus i,
+.col-lg-3:nth-child(1165) .single-courses-category a:hover i,
+.col-lg-3:nth-child(1165) .single-courses-category a:focus i {
   color: #ffffff;
 }
-.owl-item:nth-child(8) .single-courses-category a i, .owl-item:nth-child(17) .single-courses-category a i, .col-lg-3:nth-child(8) .single-courses-category a i, .col-lg-3:nth-child(17) .single-courses-category a i {
+.owl-item:nth-child(8) .single-courses-category a i, .owl-item:nth-child(17) .single-courses-category a i,
+.col-lg-3:nth-child(8) .single-courses-category a i,
+.col-lg-3:nth-child(17) .single-courses-category a i {
   color: #c81a7f;
 }
-.owl-item:nth-child(8) .single-courses-category a::before, .owl-item:nth-child(17) .single-courses-category a::before, .col-lg-3:nth-child(8) .single-courses-category a::before, .col-lg-3:nth-child(17) .single-courses-category a::before {
+.owl-item:nth-child(8) .single-courses-category a::before, .owl-item:nth-child(17) .single-courses-category a::before,
+.col-lg-3:nth-child(8) .single-courses-category a::before,
+.col-lg-3:nth-child(17) .single-courses-category a::before {
   background-color: #c81a7f;
 }
-.owl-item:nth-child(8) .single-courses-category a:hover i, .owl-item:nth-child(8) .single-courses-category a:focus i, .owl-item:nth-child(17) .single-courses-category a:hover i, .owl-item:nth-child(17) .single-courses-category a:focus i, .col-lg-3:nth-child(8) .single-courses-category a:hover i, .col-lg-3:nth-child(8) .single-courses-category a:focus i, .col-lg-3:nth-child(17) .single-courses-category a:hover i, .col-lg-3:nth-child(17) .single-courses-category a:focus i {
+.owl-item:nth-child(8) .single-courses-category a:hover i, .owl-item:nth-child(8) .single-courses-category a:focus i, .owl-item:nth-child(17) .single-courses-category a:hover i, .owl-item:nth-child(17) .single-courses-category a:focus i,
+.col-lg-3:nth-child(8) .single-courses-category a:hover i,
+.col-lg-3:nth-child(8) .single-courses-category a:focus i,
+.col-lg-3:nth-child(17) .single-courses-category a:hover i,
+.col-lg-3:nth-child(17) .single-courses-category a:focus i {
   color: #ffffff;
 }
-.owl-item:nth-child(9) .single-courses-category a i, .owl-item:nth-child(18) .single-courses-category a i, .col-lg-3:nth-child(9) .single-courses-category a i, .col-lg-3:nth-child(18) .single-courses-category a i {
+.owl-item:nth-child(9) .single-courses-category a i, .owl-item:nth-child(18) .single-courses-category a i,
+.col-lg-3:nth-child(9) .single-courses-category a i,
+.col-lg-3:nth-child(18) .single-courses-category a i {
   color: #1cb5a3;
 }
-.owl-item:nth-child(9) .single-courses-category a::before, .owl-item:nth-child(18) .single-courses-category a::before, .col-lg-3:nth-child(9) .single-courses-category a::before, .col-lg-3:nth-child(18) .single-courses-category a::before {
+.owl-item:nth-child(9) .single-courses-category a::before, .owl-item:nth-child(18) .single-courses-category a::before,
+.col-lg-3:nth-child(9) .single-courses-category a::before,
+.col-lg-3:nth-child(18) .single-courses-category a::before {
   background-color: #1cb5a3;
 }
-.owl-item:nth-child(9) .single-courses-category a:hover i, .owl-item:nth-child(9) .single-courses-category a:focus i, .owl-item:nth-child(18) .single-courses-category a:hover i, .owl-item:nth-child(18) .single-courses-category a:focus i, .col-lg-3:nth-child(9) .single-courses-category a:hover i, .col-lg-3:nth-child(9) .single-courses-category a:focus i, .col-lg-3:nth-child(18) .single-courses-category a:hover i, .col-lg-3:nth-child(18) .single-courses-category a:focus i {
+.owl-item:nth-child(9) .single-courses-category a:hover i, .owl-item:nth-child(9) .single-courses-category a:focus i, .owl-item:nth-child(18) .single-courses-category a:hover i, .owl-item:nth-child(18) .single-courses-category a:focus i,
+.col-lg-3:nth-child(9) .single-courses-category a:hover i,
+.col-lg-3:nth-child(9) .single-courses-category a:focus i,
+.col-lg-3:nth-child(18) .single-courses-category a:hover i,
+.col-lg-3:nth-child(18) .single-courses-category a:focus i {
   color: #ffffff;
 }
 
@@ -4141,49 +4266,199 @@ Courses CSS
   color: #ffffff;
 }
 
-.owl-item:nth-child(2) .single-courses-box .courses-image .courses-tag a, .owl-item:nth-child(8) .single-courses-box .courses-image .courses-tag a, .col-lg-4:nth-child(2) .single-courses-box .courses-image .courses-tag a, .col-lg-4:nth-child(8) .single-courses-box .courses-image .courses-tag a, .col-lg-6:nth-child(2) .single-courses-box .courses-image .courses-tag a, .col-lg-6:nth-child(8) .single-courses-box .courses-image .courses-tag a, .col-lg-3:nth-child(2) .single-courses-box .courses-image .courses-tag a, .col-lg-3:nth-child(8) .single-courses-box .courses-image .courses-tag a {
+.owl-item:nth-child(2) .single-courses-box .courses-image .courses-tag a, .owl-item:nth-child(8) .single-courses-box .courses-image .courses-tag a,
+.col-lg-4:nth-child(2) .single-courses-box .courses-image .courses-tag a,
+.col-lg-4:nth-child(8) .single-courses-box .courses-image .courses-tag a,
+.col-lg-6:nth-child(2) .single-courses-box .courses-image .courses-tag a,
+.col-lg-6:nth-child(8) .single-courses-box .courses-image .courses-tag a,
+.col-lg-3:nth-child(2) .single-courses-box .courses-image .courses-tag a,
+.col-lg-3:nth-child(8) .single-courses-box .courses-image .courses-tag a {
   color: #20982d;
 }
-.owl-item:nth-child(2) .single-courses-box:hover .courses-image .courses-tag, .owl-item:nth-child(2) .single-courses-box:focus .courses-image .courses-tag, .owl-item:nth-child(8) .single-courses-box:hover .courses-image .courses-tag, .owl-item:nth-child(8) .single-courses-box:focus .courses-image .courses-tag, .col-lg-4:nth-child(2) .single-courses-box:hover .courses-image .courses-tag, .col-lg-4:nth-child(2) .single-courses-box:focus .courses-image .courses-tag, .col-lg-4:nth-child(8) .single-courses-box:hover .courses-image .courses-tag, .col-lg-4:nth-child(8) .single-courses-box:focus .courses-image .courses-tag, .col-lg-6:nth-child(2) .single-courses-box:hover .courses-image .courses-tag, .col-lg-6:nth-child(2) .single-courses-box:focus .courses-image .courses-tag, .col-lg-6:nth-child(8) .single-courses-box:hover .courses-image .courses-tag, .col-lg-6:nth-child(8) .single-courses-box:focus .courses-image .courses-tag, .col-lg-3:nth-child(2) .single-courses-box:hover .courses-image .courses-tag, .col-lg-3:nth-child(2) .single-courses-box:focus .courses-image .courses-tag, .col-lg-3:nth-child(8) .single-courses-box:hover .courses-image .courses-tag, .col-lg-3:nth-child(8) .single-courses-box:focus .courses-image .courses-tag {
+.owl-item:nth-child(2) .single-courses-box:hover .courses-image .courses-tag, .owl-item:nth-child(2) .single-courses-box:focus .courses-image .courses-tag, .owl-item:nth-child(8) .single-courses-box:hover .courses-image .courses-tag, .owl-item:nth-child(8) .single-courses-box:focus .courses-image .courses-tag,
+.col-lg-4:nth-child(2) .single-courses-box:hover .courses-image .courses-tag,
+.col-lg-4:nth-child(2) .single-courses-box:focus .courses-image .courses-tag,
+.col-lg-4:nth-child(8) .single-courses-box:hover .courses-image .courses-tag,
+.col-lg-4:nth-child(8) .single-courses-box:focus .courses-image .courses-tag,
+.col-lg-6:nth-child(2) .single-courses-box:hover .courses-image .courses-tag,
+.col-lg-6:nth-child(2) .single-courses-box:focus .courses-image .courses-tag,
+.col-lg-6:nth-child(8) .single-courses-box:hover .courses-image .courses-tag,
+.col-lg-6:nth-child(8) .single-courses-box:focus .courses-image .courses-tag,
+.col-lg-3:nth-child(2) .single-courses-box:hover .courses-image .courses-tag,
+.col-lg-3:nth-child(2) .single-courses-box:focus .courses-image .courses-tag,
+.col-lg-3:nth-child(8) .single-courses-box:hover .courses-image .courses-tag,
+.col-lg-3:nth-child(8) .single-courses-box:focus .courses-image .courses-tag {
   background-color: #20982d;
 }
-.owl-item:nth-child(2) .single-courses-box:hover .courses-image .courses-tag a, .owl-item:nth-child(2) .single-courses-box:focus .courses-image .courses-tag a, .owl-item:nth-child(8) .single-courses-box:hover .courses-image .courses-tag a, .owl-item:nth-child(8) .single-courses-box:focus .courses-image .courses-tag a, .col-lg-4:nth-child(2) .single-courses-box:hover .courses-image .courses-tag a, .col-lg-4:nth-child(2) .single-courses-box:focus .courses-image .courses-tag a, .col-lg-4:nth-child(8) .single-courses-box:hover .courses-image .courses-tag a, .col-lg-4:nth-child(8) .single-courses-box:focus .courses-image .courses-tag a, .col-lg-6:nth-child(2) .single-courses-box:hover .courses-image .courses-tag a, .col-lg-6:nth-child(2) .single-courses-box:focus .courses-image .courses-tag a, .col-lg-6:nth-child(8) .single-courses-box:hover .courses-image .courses-tag a, .col-lg-6:nth-child(8) .single-courses-box:focus .courses-image .courses-tag a, .col-lg-3:nth-child(2) .single-courses-box:hover .courses-image .courses-tag a, .col-lg-3:nth-child(2) .single-courses-box:focus .courses-image .courses-tag a, .col-lg-3:nth-child(8) .single-courses-box:hover .courses-image .courses-tag a, .col-lg-3:nth-child(8) .single-courses-box:focus .courses-image .courses-tag a {
+.owl-item:nth-child(2) .single-courses-box:hover .courses-image .courses-tag a, .owl-item:nth-child(2) .single-courses-box:focus .courses-image .courses-tag a, .owl-item:nth-child(8) .single-courses-box:hover .courses-image .courses-tag a, .owl-item:nth-child(8) .single-courses-box:focus .courses-image .courses-tag a,
+.col-lg-4:nth-child(2) .single-courses-box:hover .courses-image .courses-tag a,
+.col-lg-4:nth-child(2) .single-courses-box:focus .courses-image .courses-tag a,
+.col-lg-4:nth-child(8) .single-courses-box:hover .courses-image .courses-tag a,
+.col-lg-4:nth-child(8) .single-courses-box:focus .courses-image .courses-tag a,
+.col-lg-6:nth-child(2) .single-courses-box:hover .courses-image .courses-tag a,
+.col-lg-6:nth-child(2) .single-courses-box:focus .courses-image .courses-tag a,
+.col-lg-6:nth-child(8) .single-courses-box:hover .courses-image .courses-tag a,
+.col-lg-6:nth-child(8) .single-courses-box:focus .courses-image .courses-tag a,
+.col-lg-3:nth-child(2) .single-courses-box:hover .courses-image .courses-tag a,
+.col-lg-3:nth-child(2) .single-courses-box:focus .courses-image .courses-tag a,
+.col-lg-3:nth-child(8) .single-courses-box:hover .courses-image .courses-tag a,
+.col-lg-3:nth-child(8) .single-courses-box:focus .courses-image .courses-tag a {
   color: #ffffff;
 }
-.owl-item:nth-child(3) .single-courses-box .courses-image .courses-tag a, .owl-item:nth-child(9) .single-courses-box .courses-image .courses-tag a, .col-lg-4:nth-child(3) .single-courses-box .courses-image .courses-tag a, .col-lg-4:nth-child(9) .single-courses-box .courses-image .courses-tag a, .col-lg-6:nth-child(3) .single-courses-box .courses-image .courses-tag a, .col-lg-6:nth-child(9) .single-courses-box .courses-image .courses-tag a, .col-lg-3:nth-child(3) .single-courses-box .courses-image .courses-tag a, .col-lg-3:nth-child(9) .single-courses-box .courses-image .courses-tag a {
+.owl-item:nth-child(3) .single-courses-box .courses-image .courses-tag a, .owl-item:nth-child(9) .single-courses-box .courses-image .courses-tag a,
+.col-lg-4:nth-child(3) .single-courses-box .courses-image .courses-tag a,
+.col-lg-4:nth-child(9) .single-courses-box .courses-image .courses-tag a,
+.col-lg-6:nth-child(3) .single-courses-box .courses-image .courses-tag a,
+.col-lg-6:nth-child(9) .single-courses-box .courses-image .courses-tag a,
+.col-lg-3:nth-child(3) .single-courses-box .courses-image .courses-tag a,
+.col-lg-3:nth-child(9) .single-courses-box .courses-image .courses-tag a {
   color: #fea116;
 }
-.owl-item:nth-child(3) .single-courses-box:hover .courses-image .courses-tag, .owl-item:nth-child(3) .single-courses-box:focus .courses-image .courses-tag, .owl-item:nth-child(9) .single-courses-box:hover .courses-image .courses-tag, .owl-item:nth-child(9) .single-courses-box:focus .courses-image .courses-tag, .col-lg-4:nth-child(3) .single-courses-box:hover .courses-image .courses-tag, .col-lg-4:nth-child(3) .single-courses-box:focus .courses-image .courses-tag, .col-lg-4:nth-child(9) .single-courses-box:hover .courses-image .courses-tag, .col-lg-4:nth-child(9) .single-courses-box:focus .courses-image .courses-tag, .col-lg-6:nth-child(3) .single-courses-box:hover .courses-image .courses-tag, .col-lg-6:nth-child(3) .single-courses-box:focus .courses-image .courses-tag, .col-lg-6:nth-child(9) .single-courses-box:hover .courses-image .courses-tag, .col-lg-6:nth-child(9) .single-courses-box:focus .courses-image .courses-tag, .col-lg-3:nth-child(3) .single-courses-box:hover .courses-image .courses-tag, .col-lg-3:nth-child(3) .single-courses-box:focus .courses-image .courses-tag, .col-lg-3:nth-child(9) .single-courses-box:hover .courses-image .courses-tag, .col-lg-3:nth-child(9) .single-courses-box:focus .courses-image .courses-tag {
+.owl-item:nth-child(3) .single-courses-box:hover .courses-image .courses-tag, .owl-item:nth-child(3) .single-courses-box:focus .courses-image .courses-tag, .owl-item:nth-child(9) .single-courses-box:hover .courses-image .courses-tag, .owl-item:nth-child(9) .single-courses-box:focus .courses-image .courses-tag,
+.col-lg-4:nth-child(3) .single-courses-box:hover .courses-image .courses-tag,
+.col-lg-4:nth-child(3) .single-courses-box:focus .courses-image .courses-tag,
+.col-lg-4:nth-child(9) .single-courses-box:hover .courses-image .courses-tag,
+.col-lg-4:nth-child(9) .single-courses-box:focus .courses-image .courses-tag,
+.col-lg-6:nth-child(3) .single-courses-box:hover .courses-image .courses-tag,
+.col-lg-6:nth-child(3) .single-courses-box:focus .courses-image .courses-tag,
+.col-lg-6:nth-child(9) .single-courses-box:hover .courses-image .courses-tag,
+.col-lg-6:nth-child(9) .single-courses-box:focus .courses-image .courses-tag,
+.col-lg-3:nth-child(3) .single-courses-box:hover .courses-image .courses-tag,
+.col-lg-3:nth-child(3) .single-courses-box:focus .courses-image .courses-tag,
+.col-lg-3:nth-child(9) .single-courses-box:hover .courses-image .courses-tag,
+.col-lg-3:nth-child(9) .single-courses-box:focus .courses-image .courses-tag {
   background-color: #fea116;
 }
-.owl-item:nth-child(3) .single-courses-box:hover .courses-image .courses-tag a, .owl-item:nth-child(3) .single-courses-box:focus .courses-image .courses-tag a, .owl-item:nth-child(9) .single-courses-box:hover .courses-image .courses-tag a, .owl-item:nth-child(9) .single-courses-box:focus .courses-image .courses-tag a, .col-lg-4:nth-child(3) .single-courses-box:hover .courses-image .courses-tag a, .col-lg-4:nth-child(3) .single-courses-box:focus .courses-image .courses-tag a, .col-lg-4:nth-child(9) .single-courses-box:hover .courses-image .courses-tag a, .col-lg-4:nth-child(9) .single-courses-box:focus .courses-image .courses-tag a, .col-lg-6:nth-child(3) .single-courses-box:hover .courses-image .courses-tag a, .col-lg-6:nth-child(3) .single-courses-box:focus .courses-image .courses-tag a, .col-lg-6:nth-child(9) .single-courses-box:hover .courses-image .courses-tag a, .col-lg-6:nth-child(9) .single-courses-box:focus .courses-image .courses-tag a, .col-lg-3:nth-child(3) .single-courses-box:hover .courses-image .courses-tag a, .col-lg-3:nth-child(3) .single-courses-box:focus .courses-image .courses-tag a, .col-lg-3:nth-child(9) .single-courses-box:hover .courses-image .courses-tag a, .col-lg-3:nth-child(9) .single-courses-box:focus .courses-image .courses-tag a {
+.owl-item:nth-child(3) .single-courses-box:hover .courses-image .courses-tag a, .owl-item:nth-child(3) .single-courses-box:focus .courses-image .courses-tag a, .owl-item:nth-child(9) .single-courses-box:hover .courses-image .courses-tag a, .owl-item:nth-child(9) .single-courses-box:focus .courses-image .courses-tag a,
+.col-lg-4:nth-child(3) .single-courses-box:hover .courses-image .courses-tag a,
+.col-lg-4:nth-child(3) .single-courses-box:focus .courses-image .courses-tag a,
+.col-lg-4:nth-child(9) .single-courses-box:hover .courses-image .courses-tag a,
+.col-lg-4:nth-child(9) .single-courses-box:focus .courses-image .courses-tag a,
+.col-lg-6:nth-child(3) .single-courses-box:hover .courses-image .courses-tag a,
+.col-lg-6:nth-child(3) .single-courses-box:focus .courses-image .courses-tag a,
+.col-lg-6:nth-child(9) .single-courses-box:hover .courses-image .courses-tag a,
+.col-lg-6:nth-child(9) .single-courses-box:focus .courses-image .courses-tag a,
+.col-lg-3:nth-child(3) .single-courses-box:hover .courses-image .courses-tag a,
+.col-lg-3:nth-child(3) .single-courses-box:focus .courses-image .courses-tag a,
+.col-lg-3:nth-child(9) .single-courses-box:hover .courses-image .courses-tag a,
+.col-lg-3:nth-child(9) .single-courses-box:focus .courses-image .courses-tag a {
   color: #ffffff;
 }
-.owl-item:nth-child(4) .single-courses-box .courses-image .courses-tag a, .owl-item:nth-child(10) .single-courses-box .courses-image .courses-tag a, .col-lg-4:nth-child(4) .single-courses-box .courses-image .courses-tag a, .col-lg-4:nth-child(10) .single-courses-box .courses-image .courses-tag a, .col-lg-6:nth-child(4) .single-courses-box .courses-image .courses-tag a, .col-lg-6:nth-child(10) .single-courses-box .courses-image .courses-tag a, .col-lg-3:nth-child(4) .single-courses-box .courses-image .courses-tag a, .col-lg-3:nth-child(10) .single-courses-box .courses-image .courses-tag a {
+.owl-item:nth-child(4) .single-courses-box .courses-image .courses-tag a, .owl-item:nth-child(10) .single-courses-box .courses-image .courses-tag a,
+.col-lg-4:nth-child(4) .single-courses-box .courses-image .courses-tag a,
+.col-lg-4:nth-child(10) .single-courses-box .courses-image .courses-tag a,
+.col-lg-6:nth-child(4) .single-courses-box .courses-image .courses-tag a,
+.col-lg-6:nth-child(10) .single-courses-box .courses-image .courses-tag a,
+.col-lg-3:nth-child(4) .single-courses-box .courses-image .courses-tag a,
+.col-lg-3:nth-child(10) .single-courses-box .courses-image .courses-tag a {
   color: #1cb5a3;
 }
-.owl-item:nth-child(4) .single-courses-box:hover .courses-image .courses-tag, .owl-item:nth-child(4) .single-courses-box:focus .courses-image .courses-tag, .owl-item:nth-child(10) .single-courses-box:hover .courses-image .courses-tag, .owl-item:nth-child(10) .single-courses-box:focus .courses-image .courses-tag, .col-lg-4:nth-child(4) .single-courses-box:hover .courses-image .courses-tag, .col-lg-4:nth-child(4) .single-courses-box:focus .courses-image .courses-tag, .col-lg-4:nth-child(10) .single-courses-box:hover .courses-image .courses-tag, .col-lg-4:nth-child(10) .single-courses-box:focus .courses-image .courses-tag, .col-lg-6:nth-child(4) .single-courses-box:hover .courses-image .courses-tag, .col-lg-6:nth-child(4) .single-courses-box:focus .courses-image .courses-tag, .col-lg-6:nth-child(10) .single-courses-box:hover .courses-image .courses-tag, .col-lg-6:nth-child(10) .single-courses-box:focus .courses-image .courses-tag, .col-lg-3:nth-child(4) .single-courses-box:hover .courses-image .courses-tag, .col-lg-3:nth-child(4) .single-courses-box:focus .courses-image .courses-tag, .col-lg-3:nth-child(10) .single-courses-box:hover .courses-image .courses-tag, .col-lg-3:nth-child(10) .single-courses-box:focus .courses-image .courses-tag {
+.owl-item:nth-child(4) .single-courses-box:hover .courses-image .courses-tag, .owl-item:nth-child(4) .single-courses-box:focus .courses-image .courses-tag, .owl-item:nth-child(10) .single-courses-box:hover .courses-image .courses-tag, .owl-item:nth-child(10) .single-courses-box:focus .courses-image .courses-tag,
+.col-lg-4:nth-child(4) .single-courses-box:hover .courses-image .courses-tag,
+.col-lg-4:nth-child(4) .single-courses-box:focus .courses-image .courses-tag,
+.col-lg-4:nth-child(10) .single-courses-box:hover .courses-image .courses-tag,
+.col-lg-4:nth-child(10) .single-courses-box:focus .courses-image .courses-tag,
+.col-lg-6:nth-child(4) .single-courses-box:hover .courses-image .courses-tag,
+.col-lg-6:nth-child(4) .single-courses-box:focus .courses-image .courses-tag,
+.col-lg-6:nth-child(10) .single-courses-box:hover .courses-image .courses-tag,
+.col-lg-6:nth-child(10) .single-courses-box:focus .courses-image .courses-tag,
+.col-lg-3:nth-child(4) .single-courses-box:hover .courses-image .courses-tag,
+.col-lg-3:nth-child(4) .single-courses-box:focus .courses-image .courses-tag,
+.col-lg-3:nth-child(10) .single-courses-box:hover .courses-image .courses-tag,
+.col-lg-3:nth-child(10) .single-courses-box:focus .courses-image .courses-tag {
   background-color: #1cb5a3;
 }
-.owl-item:nth-child(4) .single-courses-box:hover .courses-image .courses-tag a, .owl-item:nth-child(4) .single-courses-box:focus .courses-image .courses-tag a, .owl-item:nth-child(10) .single-courses-box:hover .courses-image .courses-tag a, .owl-item:nth-child(10) .single-courses-box:focus .courses-image .courses-tag a, .col-lg-4:nth-child(4) .single-courses-box:hover .courses-image .courses-tag a, .col-lg-4:nth-child(4) .single-courses-box:focus .courses-image .courses-tag a, .col-lg-4:nth-child(10) .single-courses-box:hover .courses-image .courses-tag a, .col-lg-4:nth-child(10) .single-courses-box:focus .courses-image .courses-tag a, .col-lg-6:nth-child(4) .single-courses-box:hover .courses-image .courses-tag a, .col-lg-6:nth-child(4) .single-courses-box:focus .courses-image .courses-tag a, .col-lg-6:nth-child(10) .single-courses-box:hover .courses-image .courses-tag a, .col-lg-6:nth-child(10) .single-courses-box:focus .courses-image .courses-tag a, .col-lg-3:nth-child(4) .single-courses-box:hover .courses-image .courses-tag a, .col-lg-3:nth-child(4) .single-courses-box:focus .courses-image .courses-tag a, .col-lg-3:nth-child(10) .single-courses-box:hover .courses-image .courses-tag a, .col-lg-3:nth-child(10) .single-courses-box:focus .courses-image .courses-tag a {
+.owl-item:nth-child(4) .single-courses-box:hover .courses-image .courses-tag a, .owl-item:nth-child(4) .single-courses-box:focus .courses-image .courses-tag a, .owl-item:nth-child(10) .single-courses-box:hover .courses-image .courses-tag a, .owl-item:nth-child(10) .single-courses-box:focus .courses-image .courses-tag a,
+.col-lg-4:nth-child(4) .single-courses-box:hover .courses-image .courses-tag a,
+.col-lg-4:nth-child(4) .single-courses-box:focus .courses-image .courses-tag a,
+.col-lg-4:nth-child(10) .single-courses-box:hover .courses-image .courses-tag a,
+.col-lg-4:nth-child(10) .single-courses-box:focus .courses-image .courses-tag a,
+.col-lg-6:nth-child(4) .single-courses-box:hover .courses-image .courses-tag a,
+.col-lg-6:nth-child(4) .single-courses-box:focus .courses-image .courses-tag a,
+.col-lg-6:nth-child(10) .single-courses-box:hover .courses-image .courses-tag a,
+.col-lg-6:nth-child(10) .single-courses-box:focus .courses-image .courses-tag a,
+.col-lg-3:nth-child(4) .single-courses-box:hover .courses-image .courses-tag a,
+.col-lg-3:nth-child(4) .single-courses-box:focus .courses-image .courses-tag a,
+.col-lg-3:nth-child(10) .single-courses-box:hover .courses-image .courses-tag a,
+.col-lg-3:nth-child(10) .single-courses-box:focus .courses-image .courses-tag a {
   color: #ffffff;
 }
-.owl-item:nth-child(5) .single-courses-box .courses-image .courses-tag a, .owl-item:nth-child(11) .single-courses-box .courses-image .courses-tag a, .col-lg-4:nth-child(5) .single-courses-box .courses-image .courses-tag a, .col-lg-4:nth-child(11) .single-courses-box .courses-image .courses-tag a, .col-lg-6:nth-child(5) .single-courses-box .courses-image .courses-tag a, .col-lg-6:nth-child(11) .single-courses-box .courses-image .courses-tag a, .col-lg-3:nth-child(5) .single-courses-box .courses-image .courses-tag a, .col-lg-3:nth-child(11) .single-courses-box .courses-image .courses-tag a {
+.owl-item:nth-child(5) .single-courses-box .courses-image .courses-tag a, .owl-item:nth-child(11) .single-courses-box .courses-image .courses-tag a,
+.col-lg-4:nth-child(5) .single-courses-box .courses-image .courses-tag a,
+.col-lg-4:nth-child(11) .single-courses-box .courses-image .courses-tag a,
+.col-lg-6:nth-child(5) .single-courses-box .courses-image .courses-tag a,
+.col-lg-6:nth-child(11) .single-courses-box .courses-image .courses-tag a,
+.col-lg-3:nth-child(5) .single-courses-box .courses-image .courses-tag a,
+.col-lg-3:nth-child(11) .single-courses-box .courses-image .courses-tag a {
   color: #3d64ff;
 }
-.owl-item:nth-child(5) .single-courses-box:hover .courses-image .courses-tag, .owl-item:nth-child(5) .single-courses-box:focus .courses-image .courses-tag, .owl-item:nth-child(11) .single-courses-box:hover .courses-image .courses-tag, .owl-item:nth-child(11) .single-courses-box:focus .courses-image .courses-tag, .col-lg-4:nth-child(5) .single-courses-box:hover .courses-image .courses-tag, .col-lg-4:nth-child(5) .single-courses-box:focus .courses-image .courses-tag, .col-lg-4:nth-child(11) .single-courses-box:hover .courses-image .courses-tag, .col-lg-4:nth-child(11) .single-courses-box:focus .courses-image .courses-tag, .col-lg-6:nth-child(5) .single-courses-box:hover .courses-image .courses-tag, .col-lg-6:nth-child(5) .single-courses-box:focus .courses-image .courses-tag, .col-lg-6:nth-child(11) .single-courses-box:hover .courses-image .courses-tag, .col-lg-6:nth-child(11) .single-courses-box:focus .courses-image .courses-tag, .col-lg-3:nth-child(5) .single-courses-box:hover .courses-image .courses-tag, .col-lg-3:nth-child(5) .single-courses-box:focus .courses-image .courses-tag, .col-lg-3:nth-child(11) .single-courses-box:hover .courses-image .courses-tag, .col-lg-3:nth-child(11) .single-courses-box:focus .courses-image .courses-tag {
+.owl-item:nth-child(5) .single-courses-box:hover .courses-image .courses-tag, .owl-item:nth-child(5) .single-courses-box:focus .courses-image .courses-tag, .owl-item:nth-child(11) .single-courses-box:hover .courses-image .courses-tag, .owl-item:nth-child(11) .single-courses-box:focus .courses-image .courses-tag,
+.col-lg-4:nth-child(5) .single-courses-box:hover .courses-image .courses-tag,
+.col-lg-4:nth-child(5) .single-courses-box:focus .courses-image .courses-tag,
+.col-lg-4:nth-child(11) .single-courses-box:hover .courses-image .courses-tag,
+.col-lg-4:nth-child(11) .single-courses-box:focus .courses-image .courses-tag,
+.col-lg-6:nth-child(5) .single-courses-box:hover .courses-image .courses-tag,
+.col-lg-6:nth-child(5) .single-courses-box:focus .courses-image .courses-tag,
+.col-lg-6:nth-child(11) .single-courses-box:hover .courses-image .courses-tag,
+.col-lg-6:nth-child(11) .single-courses-box:focus .courses-image .courses-tag,
+.col-lg-3:nth-child(5) .single-courses-box:hover .courses-image .courses-tag,
+.col-lg-3:nth-child(5) .single-courses-box:focus .courses-image .courses-tag,
+.col-lg-3:nth-child(11) .single-courses-box:hover .courses-image .courses-tag,
+.col-lg-3:nth-child(11) .single-courses-box:focus .courses-image .courses-tag {
   background-color: #3d64ff;
 }
-.owl-item:nth-child(5) .single-courses-box:hover .courses-image .courses-tag a, .owl-item:nth-child(5) .single-courses-box:focus .courses-image .courses-tag a, .owl-item:nth-child(11) .single-courses-box:hover .courses-image .courses-tag a, .owl-item:nth-child(11) .single-courses-box:focus .courses-image .courses-tag a, .col-lg-4:nth-child(5) .single-courses-box:hover .courses-image .courses-tag a, .col-lg-4:nth-child(5) .single-courses-box:focus .courses-image .courses-tag a, .col-lg-4:nth-child(11) .single-courses-box:hover .courses-image .courses-tag a, .col-lg-4:nth-child(11) .single-courses-box:focus .courses-image .courses-tag a, .col-lg-6:nth-child(5) .single-courses-box:hover .courses-image .courses-tag a, .col-lg-6:nth-child(5) .single-courses-box:focus .courses-image .courses-tag a, .col-lg-6:nth-child(11) .single-courses-box:hover .courses-image .courses-tag a, .col-lg-6:nth-child(11) .single-courses-box:focus .courses-image .courses-tag a, .col-lg-3:nth-child(5) .single-courses-box:hover .courses-image .courses-tag a, .col-lg-3:nth-child(5) .single-courses-box:focus .courses-image .courses-tag a, .col-lg-3:nth-child(11) .single-courses-box:hover .courses-image .courses-tag a, .col-lg-3:nth-child(11) .single-courses-box:focus .courses-image .courses-tag a {
+.owl-item:nth-child(5) .single-courses-box:hover .courses-image .courses-tag a, .owl-item:nth-child(5) .single-courses-box:focus .courses-image .courses-tag a, .owl-item:nth-child(11) .single-courses-box:hover .courses-image .courses-tag a, .owl-item:nth-child(11) .single-courses-box:focus .courses-image .courses-tag a,
+.col-lg-4:nth-child(5) .single-courses-box:hover .courses-image .courses-tag a,
+.col-lg-4:nth-child(5) .single-courses-box:focus .courses-image .courses-tag a,
+.col-lg-4:nth-child(11) .single-courses-box:hover .courses-image .courses-tag a,
+.col-lg-4:nth-child(11) .single-courses-box:focus .courses-image .courses-tag a,
+.col-lg-6:nth-child(5) .single-courses-box:hover .courses-image .courses-tag a,
+.col-lg-6:nth-child(5) .single-courses-box:focus .courses-image .courses-tag a,
+.col-lg-6:nth-child(11) .single-courses-box:hover .courses-image .courses-tag a,
+.col-lg-6:nth-child(11) .single-courses-box:focus .courses-image .courses-tag a,
+.col-lg-3:nth-child(5) .single-courses-box:hover .courses-image .courses-tag a,
+.col-lg-3:nth-child(5) .single-courses-box:focus .courses-image .courses-tag a,
+.col-lg-3:nth-child(11) .single-courses-box:hover .courses-image .courses-tag a,
+.col-lg-3:nth-child(11) .single-courses-box:focus .courses-image .courses-tag a {
   color: #ffffff;
 }
-.owl-item:nth-child(6) .single-courses-box .courses-image .courses-tag a, .owl-item:nth-child(12) .single-courses-box .courses-image .courses-tag a, .col-lg-4:nth-child(6) .single-courses-box .courses-image .courses-tag a, .col-lg-4:nth-child(12) .single-courses-box .courses-image .courses-tag a, .col-lg-6:nth-child(6) .single-courses-box .courses-image .courses-tag a, .col-lg-6:nth-child(12) .single-courses-box .courses-image .courses-tag a, .col-lg-3:nth-child(6) .single-courses-box .courses-image .courses-tag a, .col-lg-3:nth-child(12) .single-courses-box .courses-image .courses-tag a {
+.owl-item:nth-child(6) .single-courses-box .courses-image .courses-tag a, .owl-item:nth-child(12) .single-courses-box .courses-image .courses-tag a,
+.col-lg-4:nth-child(6) .single-courses-box .courses-image .courses-tag a,
+.col-lg-4:nth-child(12) .single-courses-box .courses-image .courses-tag a,
+.col-lg-6:nth-child(6) .single-courses-box .courses-image .courses-tag a,
+.col-lg-6:nth-child(12) .single-courses-box .courses-image .courses-tag a,
+.col-lg-3:nth-child(6) .single-courses-box .courses-image .courses-tag a,
+.col-lg-3:nth-child(12) .single-courses-box .courses-image .courses-tag a {
   color: #e74d57;
 }
-.owl-item:nth-child(6) .single-courses-box:hover .courses-image .courses-tag, .owl-item:nth-child(6) .single-courses-box:focus .courses-image .courses-tag, .owl-item:nth-child(12) .single-courses-box:hover .courses-image .courses-tag, .owl-item:nth-child(12) .single-courses-box:focus .courses-image .courses-tag, .col-lg-4:nth-child(6) .single-courses-box:hover .courses-image .courses-tag, .col-lg-4:nth-child(6) .single-courses-box:focus .courses-image .courses-tag, .col-lg-4:nth-child(12) .single-courses-box:hover .courses-image .courses-tag, .col-lg-4:nth-child(12) .single-courses-box:focus .courses-image .courses-tag, .col-lg-6:nth-child(6) .single-courses-box:hover .courses-image .courses-tag, .col-lg-6:nth-child(6) .single-courses-box:focus .courses-image .courses-tag, .col-lg-6:nth-child(12) .single-courses-box:hover .courses-image .courses-tag, .col-lg-6:nth-child(12) .single-courses-box:focus .courses-image .courses-tag, .col-lg-3:nth-child(6) .single-courses-box:hover .courses-image .courses-tag, .col-lg-3:nth-child(6) .single-courses-box:focus .courses-image .courses-tag, .col-lg-3:nth-child(12) .single-courses-box:hover .courses-image .courses-tag, .col-lg-3:nth-child(12) .single-courses-box:focus .courses-image .courses-tag {
+.owl-item:nth-child(6) .single-courses-box:hover .courses-image .courses-tag, .owl-item:nth-child(6) .single-courses-box:focus .courses-image .courses-tag, .owl-item:nth-child(12) .single-courses-box:hover .courses-image .courses-tag, .owl-item:nth-child(12) .single-courses-box:focus .courses-image .courses-tag,
+.col-lg-4:nth-child(6) .single-courses-box:hover .courses-image .courses-tag,
+.col-lg-4:nth-child(6) .single-courses-box:focus .courses-image .courses-tag,
+.col-lg-4:nth-child(12) .single-courses-box:hover .courses-image .courses-tag,
+.col-lg-4:nth-child(12) .single-courses-box:focus .courses-image .courses-tag,
+.col-lg-6:nth-child(6) .single-courses-box:hover .courses-image .courses-tag,
+.col-lg-6:nth-child(6) .single-courses-box:focus .courses-image .courses-tag,
+.col-lg-6:nth-child(12) .single-courses-box:hover .courses-image .courses-tag,
+.col-lg-6:nth-child(12) .single-courses-box:focus .courses-image .courses-tag,
+.col-lg-3:nth-child(6) .single-courses-box:hover .courses-image .courses-tag,
+.col-lg-3:nth-child(6) .single-courses-box:focus .courses-image .courses-tag,
+.col-lg-3:nth-child(12) .single-courses-box:hover .courses-image .courses-tag,
+.col-lg-3:nth-child(12) .single-courses-box:focus .courses-image .courses-tag {
   background-color: #e74d57;
 }
-.owl-item:nth-child(6) .single-courses-box:hover .courses-image .courses-tag a, .owl-item:nth-child(6) .single-courses-box:focus .courses-image .courses-tag a, .owl-item:nth-child(12) .single-courses-box:hover .courses-image .courses-tag a, .owl-item:nth-child(12) .single-courses-box:focus .courses-image .courses-tag a, .col-lg-4:nth-child(6) .single-courses-box:hover .courses-image .courses-tag a, .col-lg-4:nth-child(6) .single-courses-box:focus .courses-image .courses-tag a, .col-lg-4:nth-child(12) .single-courses-box:hover .courses-image .courses-tag a, .col-lg-4:nth-child(12) .single-courses-box:focus .courses-image .courses-tag a, .col-lg-6:nth-child(6) .single-courses-box:hover .courses-image .courses-tag a, .col-lg-6:nth-child(6) .single-courses-box:focus .courses-image .courses-tag a, .col-lg-6:nth-child(12) .single-courses-box:hover .courses-image .courses-tag a, .col-lg-6:nth-child(12) .single-courses-box:focus .courses-image .courses-tag a, .col-lg-3:nth-child(6) .single-courses-box:hover .courses-image .courses-tag a, .col-lg-3:nth-child(6) .single-courses-box:focus .courses-image .courses-tag a, .col-lg-3:nth-child(12) .single-courses-box:hover .courses-image .courses-tag a, .col-lg-3:nth-child(12) .single-courses-box:focus .courses-image .courses-tag a {
+.owl-item:nth-child(6) .single-courses-box:hover .courses-image .courses-tag a, .owl-item:nth-child(6) .single-courses-box:focus .courses-image .courses-tag a, .owl-item:nth-child(12) .single-courses-box:hover .courses-image .courses-tag a, .owl-item:nth-child(12) .single-courses-box:focus .courses-image .courses-tag a,
+.col-lg-4:nth-child(6) .single-courses-box:hover .courses-image .courses-tag a,
+.col-lg-4:nth-child(6) .single-courses-box:focus .courses-image .courses-tag a,
+.col-lg-4:nth-child(12) .single-courses-box:hover .courses-image .courses-tag a,
+.col-lg-4:nth-child(12) .single-courses-box:focus .courses-image .courses-tag a,
+.col-lg-6:nth-child(6) .single-courses-box:hover .courses-image .courses-tag a,
+.col-lg-6:nth-child(6) .single-courses-box:focus .courses-image .courses-tag a,
+.col-lg-6:nth-child(12) .single-courses-box:hover .courses-image .courses-tag a,
+.col-lg-6:nth-child(12) .single-courses-box:focus .courses-image .courses-tag a,
+.col-lg-3:nth-child(6) .single-courses-box:hover .courses-image .courses-tag a,
+.col-lg-3:nth-child(6) .single-courses-box:focus .courses-image .courses-tag a,
+.col-lg-3:nth-child(12) .single-courses-box:hover .courses-image .courses-tag a,
+.col-lg-3:nth-child(12) .single-courses-box:focus .courses-image .courses-tag a {
   color: #ffffff;
 }
 
@@ -5298,30 +5573,46 @@ Team CSS
   visibility: visible;
 }
 
-.owl-item:nth-child(2) .single-instructor-box .image, .owl-item:nth-child(6) .single-instructor-box .image, .col-lg-4:nth-child(2) .single-instructor-box .image, .col-lg-4:nth-child(6) .single-instructor-box .image {
+.owl-item:nth-child(2) .single-instructor-box .image, .owl-item:nth-child(6) .single-instructor-box .image,
+.col-lg-4:nth-child(2) .single-instructor-box .image,
+.col-lg-4:nth-child(6) .single-instructor-box .image {
   border-color: #ffe5be;
 }
-.owl-item:nth-child(2) .single-instructor-box .image .social li a:hover, .owl-item:nth-child(6) .single-instructor-box .image .social li a:hover, .col-lg-4:nth-child(2) .single-instructor-box .image .social li a:hover, .col-lg-4:nth-child(6) .single-instructor-box .image .social li a:hover {
+.owl-item:nth-child(2) .single-instructor-box .image .social li a:hover, .owl-item:nth-child(6) .single-instructor-box .image .social li a:hover,
+.col-lg-4:nth-child(2) .single-instructor-box .image .social li a:hover,
+.col-lg-4:nth-child(6) .single-instructor-box .image .social li a:hover {
   color: #ffffff;
   background-color: #fea116;
 }
-.owl-item:nth-child(2) .single-instructor-box .content span, .owl-item:nth-child(6) .single-instructor-box .content span, .col-lg-4:nth-child(2) .single-instructor-box .content span, .col-lg-4:nth-child(6) .single-instructor-box .content span {
+.owl-item:nth-child(2) .single-instructor-box .content span, .owl-item:nth-child(6) .single-instructor-box .content span,
+.col-lg-4:nth-child(2) .single-instructor-box .content span,
+.col-lg-4:nth-child(6) .single-instructor-box .content span {
   color: #fea116;
 }
-.owl-item:nth-child(2) .single-instructor-box:hover .image, .owl-item:nth-child(6) .single-instructor-box:hover .image, .col-lg-4:nth-child(2) .single-instructor-box:hover .image, .col-lg-4:nth-child(6) .single-instructor-box:hover .image {
+.owl-item:nth-child(2) .single-instructor-box:hover .image, .owl-item:nth-child(6) .single-instructor-box:hover .image,
+.col-lg-4:nth-child(2) .single-instructor-box:hover .image,
+.col-lg-4:nth-child(6) .single-instructor-box:hover .image {
   border-color: #fea116;
 }
-.owl-item:nth-child(3) .single-instructor-box .image, .owl-item:nth-child(5) .single-instructor-box .image, .col-lg-4:nth-child(3) .single-instructor-box .image, .col-lg-4:nth-child(5) .single-instructor-box .image {
+.owl-item:nth-child(3) .single-instructor-box .image, .owl-item:nth-child(5) .single-instructor-box .image,
+.col-lg-4:nth-child(3) .single-instructor-box .image,
+.col-lg-4:nth-child(5) .single-instructor-box .image {
   border-color: #b2f3df;
 }
-.owl-item:nth-child(3) .single-instructor-box .image .social li a:hover, .owl-item:nth-child(5) .single-instructor-box .image .social li a:hover, .col-lg-4:nth-child(3) .single-instructor-box .image .social li a:hover, .col-lg-4:nth-child(5) .single-instructor-box .image .social li a:hover {
+.owl-item:nth-child(3) .single-instructor-box .image .social li a:hover, .owl-item:nth-child(5) .single-instructor-box .image .social li a:hover,
+.col-lg-4:nth-child(3) .single-instructor-box .image .social li a:hover,
+.col-lg-4:nth-child(5) .single-instructor-box .image .social li a:hover {
   color: #ffffff;
   background-color: #0eb582;
 }
-.owl-item:nth-child(3) .single-instructor-box .content span, .owl-item:nth-child(5) .single-instructor-box .content span, .col-lg-4:nth-child(3) .single-instructor-box .content span, .col-lg-4:nth-child(5) .single-instructor-box .content span {
+.owl-item:nth-child(3) .single-instructor-box .content span, .owl-item:nth-child(5) .single-instructor-box .content span,
+.col-lg-4:nth-child(3) .single-instructor-box .content span,
+.col-lg-4:nth-child(5) .single-instructor-box .content span {
   color: #0eb582;
 }
-.owl-item:nth-child(3) .single-instructor-box:hover .image, .owl-item:nth-child(5) .single-instructor-box:hover .image, .col-lg-4:nth-child(3) .single-instructor-box:hover .image, .col-lg-4:nth-child(5) .single-instructor-box:hover .image {
+.owl-item:nth-child(3) .single-instructor-box:hover .image, .owl-item:nth-child(5) .single-instructor-box:hover .image,
+.col-lg-4:nth-child(3) .single-instructor-box:hover .image,
+.col-lg-4:nth-child(5) .single-instructor-box:hover .image {
   border-color: #0eb582;
 }
 
@@ -5815,7 +6106,7 @@ Testimonials CSS
 .feedback-area {
   position: relative;
   z-index: 1;
-  background-color: #F7F5F4;
+  background-color: #f7f5f4;
 }
 
 .single-feedback-item {
@@ -6027,7 +6318,7 @@ Students Feedback Form CSS
   width: 100%;
 }
 .students-feedback-form form .form-group .form-control:focus + .label-title {
-  color: #A1A1A1;
+  color: #a1a1a1;
 }
 .students-feedback-form form .form-group .form-control:focus + .label-title i {
   top: -15px;
@@ -6347,31 +6638,103 @@ Blog CSS
   visibility: visible;
 }
 
-.owl-item:nth-child(2) .single-blog-post .post-image .tag a, .owl-item:nth-child(7) .single-blog-post .post-image .tag a, .col-lg-4:nth-child(2) .single-blog-post .post-image .tag a, .col-lg-4:nth-child(7) .single-blog-post .post-image .tag a, .col-lg-6:nth-child(2) .single-blog-post .post-image .tag a, .col-lg-6:nth-child(7) .single-blog-post .post-image .tag a, .col-lg-3:nth-child(2) .single-blog-post .post-image .tag a, .col-lg-3:nth-child(7) .single-blog-post .post-image .tag a {
+.owl-item:nth-child(2) .single-blog-post .post-image .tag a, .owl-item:nth-child(7) .single-blog-post .post-image .tag a,
+.col-lg-4:nth-child(2) .single-blog-post .post-image .tag a,
+.col-lg-4:nth-child(7) .single-blog-post .post-image .tag a,
+.col-lg-6:nth-child(2) .single-blog-post .post-image .tag a,
+.col-lg-6:nth-child(7) .single-blog-post .post-image .tag a,
+.col-lg-3:nth-child(2) .single-blog-post .post-image .tag a,
+.col-lg-3:nth-child(7) .single-blog-post .post-image .tag a {
   color: #0eb582;
 }
-.owl-item:nth-child(2) .single-blog-post:hover .post-image .tag a, .owl-item:nth-child(2) .single-blog-post:focus .post-image .tag a, .owl-item:nth-child(7) .single-blog-post:hover .post-image .tag a, .owl-item:nth-child(7) .single-blog-post:focus .post-image .tag a, .col-lg-4:nth-child(2) .single-blog-post:hover .post-image .tag a, .col-lg-4:nth-child(2) .single-blog-post:focus .post-image .tag a, .col-lg-4:nth-child(7) .single-blog-post:hover .post-image .tag a, .col-lg-4:nth-child(7) .single-blog-post:focus .post-image .tag a, .col-lg-6:nth-child(2) .single-blog-post:hover .post-image .tag a, .col-lg-6:nth-child(2) .single-blog-post:focus .post-image .tag a, .col-lg-6:nth-child(7) .single-blog-post:hover .post-image .tag a, .col-lg-6:nth-child(7) .single-blog-post:focus .post-image .tag a, .col-lg-3:nth-child(2) .single-blog-post:hover .post-image .tag a, .col-lg-3:nth-child(2) .single-blog-post:focus .post-image .tag a, .col-lg-3:nth-child(7) .single-blog-post:hover .post-image .tag a, .col-lg-3:nth-child(7) .single-blog-post:focus .post-image .tag a {
+.owl-item:nth-child(2) .single-blog-post:hover .post-image .tag a, .owl-item:nth-child(2) .single-blog-post:focus .post-image .tag a, .owl-item:nth-child(7) .single-blog-post:hover .post-image .tag a, .owl-item:nth-child(7) .single-blog-post:focus .post-image .tag a,
+.col-lg-4:nth-child(2) .single-blog-post:hover .post-image .tag a,
+.col-lg-4:nth-child(2) .single-blog-post:focus .post-image .tag a,
+.col-lg-4:nth-child(7) .single-blog-post:hover .post-image .tag a,
+.col-lg-4:nth-child(7) .single-blog-post:focus .post-image .tag a,
+.col-lg-6:nth-child(2) .single-blog-post:hover .post-image .tag a,
+.col-lg-6:nth-child(2) .single-blog-post:focus .post-image .tag a,
+.col-lg-6:nth-child(7) .single-blog-post:hover .post-image .tag a,
+.col-lg-6:nth-child(7) .single-blog-post:focus .post-image .tag a,
+.col-lg-3:nth-child(2) .single-blog-post:hover .post-image .tag a,
+.col-lg-3:nth-child(2) .single-blog-post:focus .post-image .tag a,
+.col-lg-3:nth-child(7) .single-blog-post:hover .post-image .tag a,
+.col-lg-3:nth-child(7) .single-blog-post:focus .post-image .tag a {
   background-color: #0eb582;
   color: #ffffff;
 }
-.owl-item:nth-child(3) .single-blog-post .post-image .tag a, .owl-item:nth-child(8) .single-blog-post .post-image .tag a, .col-lg-4:nth-child(3) .single-blog-post .post-image .tag a, .col-lg-4:nth-child(8) .single-blog-post .post-image .tag a, .col-lg-6:nth-child(3) .single-blog-post .post-image .tag a, .col-lg-6:nth-child(8) .single-blog-post .post-image .tag a, .col-lg-3:nth-child(3) .single-blog-post .post-image .tag a, .col-lg-3:nth-child(8) .single-blog-post .post-image .tag a {
+.owl-item:nth-child(3) .single-blog-post .post-image .tag a, .owl-item:nth-child(8) .single-blog-post .post-image .tag a,
+.col-lg-4:nth-child(3) .single-blog-post .post-image .tag a,
+.col-lg-4:nth-child(8) .single-blog-post .post-image .tag a,
+.col-lg-6:nth-child(3) .single-blog-post .post-image .tag a,
+.col-lg-6:nth-child(8) .single-blog-post .post-image .tag a,
+.col-lg-3:nth-child(3) .single-blog-post .post-image .tag a,
+.col-lg-3:nth-child(8) .single-blog-post .post-image .tag a {
   color: #fea116;
 }
-.owl-item:nth-child(3) .single-blog-post:hover .post-image .tag a, .owl-item:nth-child(3) .single-blog-post:focus .post-image .tag a, .owl-item:nth-child(8) .single-blog-post:hover .post-image .tag a, .owl-item:nth-child(8) .single-blog-post:focus .post-image .tag a, .col-lg-4:nth-child(3) .single-blog-post:hover .post-image .tag a, .col-lg-4:nth-child(3) .single-blog-post:focus .post-image .tag a, .col-lg-4:nth-child(8) .single-blog-post:hover .post-image .tag a, .col-lg-4:nth-child(8) .single-blog-post:focus .post-image .tag a, .col-lg-6:nth-child(3) .single-blog-post:hover .post-image .tag a, .col-lg-6:nth-child(3) .single-blog-post:focus .post-image .tag a, .col-lg-6:nth-child(8) .single-blog-post:hover .post-image .tag a, .col-lg-6:nth-child(8) .single-blog-post:focus .post-image .tag a, .col-lg-3:nth-child(3) .single-blog-post:hover .post-image .tag a, .col-lg-3:nth-child(3) .single-blog-post:focus .post-image .tag a, .col-lg-3:nth-child(8) .single-blog-post:hover .post-image .tag a, .col-lg-3:nth-child(8) .single-blog-post:focus .post-image .tag a {
+.owl-item:nth-child(3) .single-blog-post:hover .post-image .tag a, .owl-item:nth-child(3) .single-blog-post:focus .post-image .tag a, .owl-item:nth-child(8) .single-blog-post:hover .post-image .tag a, .owl-item:nth-child(8) .single-blog-post:focus .post-image .tag a,
+.col-lg-4:nth-child(3) .single-blog-post:hover .post-image .tag a,
+.col-lg-4:nth-child(3) .single-blog-post:focus .post-image .tag a,
+.col-lg-4:nth-child(8) .single-blog-post:hover .post-image .tag a,
+.col-lg-4:nth-child(8) .single-blog-post:focus .post-image .tag a,
+.col-lg-6:nth-child(3) .single-blog-post:hover .post-image .tag a,
+.col-lg-6:nth-child(3) .single-blog-post:focus .post-image .tag a,
+.col-lg-6:nth-child(8) .single-blog-post:hover .post-image .tag a,
+.col-lg-6:nth-child(8) .single-blog-post:focus .post-image .tag a,
+.col-lg-3:nth-child(3) .single-blog-post:hover .post-image .tag a,
+.col-lg-3:nth-child(3) .single-blog-post:focus .post-image .tag a,
+.col-lg-3:nth-child(8) .single-blog-post:hover .post-image .tag a,
+.col-lg-3:nth-child(8) .single-blog-post:focus .post-image .tag a {
   background-color: #fea116;
   color: #ffffff;
 }
-.owl-item:nth-child(4) .single-blog-post .post-image .tag a, .owl-item:nth-child(9) .single-blog-post .post-image .tag a, .col-lg-4:nth-child(4) .single-blog-post .post-image .tag a, .col-lg-4:nth-child(9) .single-blog-post .post-image .tag a, .col-lg-6:nth-child(4) .single-blog-post .post-image .tag a, .col-lg-6:nth-child(9) .single-blog-post .post-image .tag a, .col-lg-3:nth-child(4) .single-blog-post .post-image .tag a, .col-lg-3:nth-child(9) .single-blog-post .post-image .tag a {
+.owl-item:nth-child(4) .single-blog-post .post-image .tag a, .owl-item:nth-child(9) .single-blog-post .post-image .tag a,
+.col-lg-4:nth-child(4) .single-blog-post .post-image .tag a,
+.col-lg-4:nth-child(9) .single-blog-post .post-image .tag a,
+.col-lg-6:nth-child(4) .single-blog-post .post-image .tag a,
+.col-lg-6:nth-child(9) .single-blog-post .post-image .tag a,
+.col-lg-3:nth-child(4) .single-blog-post .post-image .tag a,
+.col-lg-3:nth-child(9) .single-blog-post .post-image .tag a {
   color: #1cb5a3;
 }
-.owl-item:nth-child(4) .single-blog-post:hover .post-image .tag a, .owl-item:nth-child(4) .single-blog-post:focus .post-image .tag a, .owl-item:nth-child(9) .single-blog-post:hover .post-image .tag a, .owl-item:nth-child(9) .single-blog-post:focus .post-image .tag a, .col-lg-4:nth-child(4) .single-blog-post:hover .post-image .tag a, .col-lg-4:nth-child(4) .single-blog-post:focus .post-image .tag a, .col-lg-4:nth-child(9) .single-blog-post:hover .post-image .tag a, .col-lg-4:nth-child(9) .single-blog-post:focus .post-image .tag a, .col-lg-6:nth-child(4) .single-blog-post:hover .post-image .tag a, .col-lg-6:nth-child(4) .single-blog-post:focus .post-image .tag a, .col-lg-6:nth-child(9) .single-blog-post:hover .post-image .tag a, .col-lg-6:nth-child(9) .single-blog-post:focus .post-image .tag a, .col-lg-3:nth-child(4) .single-blog-post:hover .post-image .tag a, .col-lg-3:nth-child(4) .single-blog-post:focus .post-image .tag a, .col-lg-3:nth-child(9) .single-blog-post:hover .post-image .tag a, .col-lg-3:nth-child(9) .single-blog-post:focus .post-image .tag a {
+.owl-item:nth-child(4) .single-blog-post:hover .post-image .tag a, .owl-item:nth-child(4) .single-blog-post:focus .post-image .tag a, .owl-item:nth-child(9) .single-blog-post:hover .post-image .tag a, .owl-item:nth-child(9) .single-blog-post:focus .post-image .tag a,
+.col-lg-4:nth-child(4) .single-blog-post:hover .post-image .tag a,
+.col-lg-4:nth-child(4) .single-blog-post:focus .post-image .tag a,
+.col-lg-4:nth-child(9) .single-blog-post:hover .post-image .tag a,
+.col-lg-4:nth-child(9) .single-blog-post:focus .post-image .tag a,
+.col-lg-6:nth-child(4) .single-blog-post:hover .post-image .tag a,
+.col-lg-6:nth-child(4) .single-blog-post:focus .post-image .tag a,
+.col-lg-6:nth-child(9) .single-blog-post:hover .post-image .tag a,
+.col-lg-6:nth-child(9) .single-blog-post:focus .post-image .tag a,
+.col-lg-3:nth-child(4) .single-blog-post:hover .post-image .tag a,
+.col-lg-3:nth-child(4) .single-blog-post:focus .post-image .tag a,
+.col-lg-3:nth-child(9) .single-blog-post:hover .post-image .tag a,
+.col-lg-3:nth-child(9) .single-blog-post:focus .post-image .tag a {
   background-color: #1cb5a3;
   color: #ffffff;
 }
-.owl-item:nth-child(5) .single-blog-post .post-image .tag a, .owl-item:nth-child(10) .single-blog-post .post-image .tag a, .col-lg-4:nth-child(5) .single-blog-post .post-image .tag a, .col-lg-4:nth-child(10) .single-blog-post .post-image .tag a, .col-lg-6:nth-child(5) .single-blog-post .post-image .tag a, .col-lg-6:nth-child(10) .single-blog-post .post-image .tag a, .col-lg-3:nth-child(5) .single-blog-post .post-image .tag a, .col-lg-3:nth-child(10) .single-blog-post .post-image .tag a {
+.owl-item:nth-child(5) .single-blog-post .post-image .tag a, .owl-item:nth-child(10) .single-blog-post .post-image .tag a,
+.col-lg-4:nth-child(5) .single-blog-post .post-image .tag a,
+.col-lg-4:nth-child(10) .single-blog-post .post-image .tag a,
+.col-lg-6:nth-child(5) .single-blog-post .post-image .tag a,
+.col-lg-6:nth-child(10) .single-blog-post .post-image .tag a,
+.col-lg-3:nth-child(5) .single-blog-post .post-image .tag a,
+.col-lg-3:nth-child(10) .single-blog-post .post-image .tag a {
   color: #3d64ff;
 }
-.owl-item:nth-child(5) .single-blog-post:hover .post-image .tag a, .owl-item:nth-child(5) .single-blog-post:focus .post-image .tag a, .owl-item:nth-child(10) .single-blog-post:hover .post-image .tag a, .owl-item:nth-child(10) .single-blog-post:focus .post-image .tag a, .col-lg-4:nth-child(5) .single-blog-post:hover .post-image .tag a, .col-lg-4:nth-child(5) .single-blog-post:focus .post-image .tag a, .col-lg-4:nth-child(10) .single-blog-post:hover .post-image .tag a, .col-lg-4:nth-child(10) .single-blog-post:focus .post-image .tag a, .col-lg-6:nth-child(5) .single-blog-post:hover .post-image .tag a, .col-lg-6:nth-child(5) .single-blog-post:focus .post-image .tag a, .col-lg-6:nth-child(10) .single-blog-post:hover .post-image .tag a, .col-lg-6:nth-child(10) .single-blog-post:focus .post-image .tag a, .col-lg-3:nth-child(5) .single-blog-post:hover .post-image .tag a, .col-lg-3:nth-child(5) .single-blog-post:focus .post-image .tag a, .col-lg-3:nth-child(10) .single-blog-post:hover .post-image .tag a, .col-lg-3:nth-child(10) .single-blog-post:focus .post-image .tag a {
+.owl-item:nth-child(5) .single-blog-post:hover .post-image .tag a, .owl-item:nth-child(5) .single-blog-post:focus .post-image .tag a, .owl-item:nth-child(10) .single-blog-post:hover .post-image .tag a, .owl-item:nth-child(10) .single-blog-post:focus .post-image .tag a,
+.col-lg-4:nth-child(5) .single-blog-post:hover .post-image .tag a,
+.col-lg-4:nth-child(5) .single-blog-post:focus .post-image .tag a,
+.col-lg-4:nth-child(10) .single-blog-post:hover .post-image .tag a,
+.col-lg-4:nth-child(10) .single-blog-post:focus .post-image .tag a,
+.col-lg-6:nth-child(5) .single-blog-post:hover .post-image .tag a,
+.col-lg-6:nth-child(5) .single-blog-post:focus .post-image .tag a,
+.col-lg-6:nth-child(10) .single-blog-post:hover .post-image .tag a,
+.col-lg-6:nth-child(10) .single-blog-post:focus .post-image .tag a,
+.col-lg-3:nth-child(5) .single-blog-post:hover .post-image .tag a,
+.col-lg-3:nth-child(5) .single-blog-post:focus .post-image .tag a,
+.col-lg-3:nth-child(10) .single-blog-post:hover .post-image .tag a,
+.col-lg-3:nth-child(10) .single-blog-post:focus .post-image .tag a {
   background-color: #3d64ff;
   color: #ffffff;
 }
@@ -6632,7 +6995,8 @@ Blog Details CSS
   color: #ffffff;
 }
 
-blockquote, .blockquote {
+blockquote,
+.blockquote {
   overflow: hidden;
   background-color: #fafafa;
   padding: 50px !important;
@@ -6642,7 +7006,8 @@ blockquote, .blockquote {
   margin-bottom: 20px;
   margin-top: 20px;
 }
-blockquote p, .blockquote p {
+blockquote p,
+.blockquote p {
   color: #252525;
   line-height: 1.6;
   margin-bottom: 0;
@@ -6650,10 +7015,12 @@ blockquote p, .blockquote p {
   font-weight: 500;
   font-size: 22px !important;
 }
-blockquote cite, .blockquote cite {
+blockquote cite,
+.blockquote cite {
   display: none;
 }
-blockquote::before, .blockquote::before {
+blockquote::before,
+.blockquote::before {
   color: #efefef;
   position: absolute;
   left: 50px;
@@ -6666,7 +7033,8 @@ blockquote::before, .blockquote::before {
   font-variant: normal;
   font-size: 135px;
 }
-blockquote::after, .blockquote::after {
+blockquote::after,
+.blockquote::after {
   content: "";
   position: absolute;
   left: 0;
@@ -6864,7 +7232,8 @@ blockquote::after, .blockquote::after {
   font-size: 22px;
   font-weight: 600;
 }
-.comments-area ol, .comments-area ul {
+.comments-area ol,
+.comments-area ul {
   padding: 0;
   margin: 0;
   list-style-type: none;
@@ -6963,7 +7332,19 @@ blockquote::after, .blockquote::after {
 .comments-area .comment-respond label {
   display: none;
 }
-.comments-area .comment-respond input[type=date], .comments-area .comment-respond input[type=time], .comments-area .comment-respond input[type=datetime-local], .comments-area .comment-respond input[type=week], .comments-area .comment-respond input[type=month], .comments-area .comment-respond input[type=text], .comments-area .comment-respond input[type=email], .comments-area .comment-respond input[type=url], .comments-area .comment-respond input[type=password], .comments-area .comment-respond input[type=search], .comments-area .comment-respond input[type=tel], .comments-area .comment-respond input[type=number], .comments-area .comment-respond textarea {
+.comments-area .comment-respond input[type=date],
+.comments-area .comment-respond input[type=time],
+.comments-area .comment-respond input[type=datetime-local],
+.comments-area .comment-respond input[type=week],
+.comments-area .comment-respond input[type=month],
+.comments-area .comment-respond input[type=text],
+.comments-area .comment-respond input[type=email],
+.comments-area .comment-respond input[type=url],
+.comments-area .comment-respond input[type=password],
+.comments-area .comment-respond input[type=search],
+.comments-area .comment-respond input[type=tel],
+.comments-area .comment-respond input[type=number],
+.comments-area .comment-respond textarea {
   display: block;
   width: 100%;
   background-color: #f4f4f4;
@@ -6981,14 +7362,38 @@ blockquote::after, .blockquote::after {
   transition: 0.5s;
   color: #727695;
 }
-.comments-area .comment-respond input[type=date]::placeholder, .comments-area .comment-respond input[type=time]::placeholder, .comments-area .comment-respond input[type=datetime-local]::placeholder, .comments-area .comment-respond input[type=week]::placeholder, .comments-area .comment-respond input[type=month]::placeholder, .comments-area .comment-respond input[type=text]::placeholder, .comments-area .comment-respond input[type=email]::placeholder, .comments-area .comment-respond input[type=url]::placeholder, .comments-area .comment-respond input[type=password]::placeholder, .comments-area .comment-respond input[type=search]::placeholder, .comments-area .comment-respond input[type=tel]::placeholder, .comments-area .comment-respond input[type=number]::placeholder, .comments-area .comment-respond textarea::placeholder {
+.comments-area .comment-respond input[type=date]::placeholder,
+.comments-area .comment-respond input[type=time]::placeholder,
+.comments-area .comment-respond input[type=datetime-local]::placeholder,
+.comments-area .comment-respond input[type=week]::placeholder,
+.comments-area .comment-respond input[type=month]::placeholder,
+.comments-area .comment-respond input[type=text]::placeholder,
+.comments-area .comment-respond input[type=email]::placeholder,
+.comments-area .comment-respond input[type=url]::placeholder,
+.comments-area .comment-respond input[type=password]::placeholder,
+.comments-area .comment-respond input[type=search]::placeholder,
+.comments-area .comment-respond input[type=tel]::placeholder,
+.comments-area .comment-respond input[type=number]::placeholder,
+.comments-area .comment-respond textarea::placeholder {
   transition: 0.5s;
   color: #727695;
 }
 .comments-area .comment-respond input[type=date]:focus::-moz-placeholder, .comments-area .comment-respond input[type=time]:focus::-moz-placeholder, .comments-area .comment-respond input[type=datetime-local]:focus::-moz-placeholder, .comments-area .comment-respond input[type=week]:focus::-moz-placeholder, .comments-area .comment-respond input[type=month]:focus::-moz-placeholder, .comments-area .comment-respond input[type=text]:focus::-moz-placeholder, .comments-area .comment-respond input[type=email]:focus::-moz-placeholder, .comments-area .comment-respond input[type=url]:focus::-moz-placeholder, .comments-area .comment-respond input[type=password]:focus::-moz-placeholder, .comments-area .comment-respond input[type=search]:focus::-moz-placeholder, .comments-area .comment-respond input[type=tel]:focus::-moz-placeholder, .comments-area .comment-respond input[type=number]:focus::-moz-placeholder, .comments-area .comment-respond textarea:focus::-moz-placeholder {
   color: transparent;
 }
-.comments-area .comment-respond input[type=date]:focus::placeholder, .comments-area .comment-respond input[type=time]:focus::placeholder, .comments-area .comment-respond input[type=datetime-local]:focus::placeholder, .comments-area .comment-respond input[type=week]:focus::placeholder, .comments-area .comment-respond input[type=month]:focus::placeholder, .comments-area .comment-respond input[type=text]:focus::placeholder, .comments-area .comment-respond input[type=email]:focus::placeholder, .comments-area .comment-respond input[type=url]:focus::placeholder, .comments-area .comment-respond input[type=password]:focus::placeholder, .comments-area .comment-respond input[type=search]:focus::placeholder, .comments-area .comment-respond input[type=tel]:focus::placeholder, .comments-area .comment-respond input[type=number]:focus::placeholder, .comments-area .comment-respond textarea:focus::placeholder {
+.comments-area .comment-respond input[type=date]:focus::placeholder,
+.comments-area .comment-respond input[type=time]:focus::placeholder,
+.comments-area .comment-respond input[type=datetime-local]:focus::placeholder,
+.comments-area .comment-respond input[type=week]:focus::placeholder,
+.comments-area .comment-respond input[type=month]:focus::placeholder,
+.comments-area .comment-respond input[type=text]:focus::placeholder,
+.comments-area .comment-respond input[type=email]:focus::placeholder,
+.comments-area .comment-respond input[type=url]:focus::placeholder,
+.comments-area .comment-respond input[type=password]:focus::placeholder,
+.comments-area .comment-respond input[type=search]:focus::placeholder,
+.comments-area .comment-respond input[type=tel]:focus::placeholder,
+.comments-area .comment-respond input[type=number]:focus::placeholder,
+.comments-area .comment-respond textarea:focus::placeholder {
   color: transparent;
 }
 .comments-area .comment-respond textarea {
@@ -9580,12 +9985,12 @@ Coming Soon CSS
   font-weight: 400;
 }
 .coming-soon-content form .form-group .input-newsletter::-moz-placeholder {
-  color: #A1A1A1;
+  color: #a1a1a1;
   -moz-transition: 0.5s;
   transition: 0.5s;
 }
 .coming-soon-content form .form-group .input-newsletter::placeholder {
-  color: #A1A1A1;
+  color: #a1a1a1;
   transition: 0.5s;
 }
 .coming-soon-content form .form-group .input-newsletter:focus {
@@ -9601,7 +10006,7 @@ Coming Soon CSS
   width: 100%;
 }
 .coming-soon-content form .form-group .input-newsletter:focus + .label-title {
-  color: #A1A1A1;
+  color: #a1a1a1;
 }
 .coming-soon-content form .form-group .input-newsletter:focus + .label-title i {
   top: -22px;
@@ -10007,7 +10412,7 @@ My Account CSS
 }
 .myAccount-content .recent-orders-table .table tbody td .view-button {
   display: inline-block;
-  background-color: #EAEAEC;
+  background-color: #eaeaec;
   border-radius: 3px;
   padding: 6px 20px;
   font-size: 14px;
@@ -10038,7 +10443,7 @@ My Account CSS
 }
 .myAccount-content .orders-table .table tbody td .view-button {
   display: inline-block;
-  background-color: #EAEAEC;
+  background-color: #eaeaec;
   border-radius: 3px;
   padding: 6px 20px;
   font-size: 14px;
@@ -10072,7 +10477,7 @@ My Account CSS
 }
 .myAccount-content .downloads-table .table tbody td .downloads-button {
   display: inline-block;
-  background-color: #EAEAEC;
+  background-color: #eaeaec;
   border-radius: 3px;
   padding: 6px 20px;
   font-size: 14px;
@@ -10878,7 +11283,9 @@ Services CSS
   background-color: #20982d;
   color: #ffffff;
 }
-.services-box:hover .icon, .services-box:hover p, .services-box:hover h3 {
+.services-box:hover .icon,
+.services-box:hover p,
+.services-box:hover h3 {
   color: #ffffff;
 }
 
@@ -12876,7 +13283,18 @@ Dark CSS
   background-color: #000000 !important;
   color: #ffffff;
 }
-.bg-dark .h1, .bg-dark .h2, .bg-dark .h3, .bg-dark .h4, .bg-dark .h5, .bg-dark .h6, .bg-dark h1, .bg-dark h2, .bg-dark h3, .bg-dark h4, .bg-dark h5, .bg-dark h6 {
+.bg-dark .h1,
+.bg-dark .h2,
+.bg-dark .h3,
+.bg-dark .h4,
+.bg-dark .h5,
+.bg-dark .h6,
+.bg-dark h1,
+.bg-dark h2,
+.bg-dark h3,
+.bg-dark h4,
+.bg-dark h5,
+.bg-dark h6 {
   color: #ffffff;
 }
 .bg-dark p {
@@ -13002,7 +13420,8 @@ App Area CSS
   margin-left: 0;
   margin-right: 0;
 }
-.app-area .row .col-lg-5, .app-area .row .col-md-7 {
+.app-area .row .col-lg-5,
+.app-area .row .col-md-7 {
   padding-left: 0;
   padding-right: 0;
 }
@@ -13409,7 +13828,7 @@ Motivation Course Banner Area CSS
 =================================================*/
 .motivation-course-banner-area {
   padding-top: 100px;
-  border-top: 1px solid #E5E5E5;
+  border-top: 1px solid #e5e5e5;
 }
 .motivation-course-banner-area .container-fluid {
   padding-left: 60px;
@@ -13512,7 +13931,7 @@ Motivation Featured Area CSS
   border-radius: 15px;
 }
 .motivation-featured-area.bg-fluid-black-color {
-  background-color: #0E2742;
+  background-color: #0e2742;
 }
 .motivation-featured-area.bg-fluid-black-color .container-fluid {
   padding-left: 60px;
@@ -13520,16 +13939,16 @@ Motivation Featured Area CSS
 }
 .motivation-featured-area.bg-fluid-black-color .motivation-featured-item .icon i {
   border-radius: 50px;
-  background: #EA9927;
+  background: #ea9927;
 }
 .motivation-featured-area.bg-fluid-black-color .motivation-featured-item .icon.bg-0B767A i {
-  background: #0B767A;
+  background: #0b767a;
 }
 .motivation-featured-area.bg-fluid-black-color .motivation-featured-item .icon.bg-9879B6 i {
-  background: #9879B6;
+  background: #9879b6;
 }
 .motivation-featured-area.bg-fluid-black-color .motivation-featured-item .icon.bg-FF305B i {
-  background: #FF305B;
+  background: #ff305b;
 }
 
 .motivation-featured-card {
@@ -13636,7 +14055,7 @@ Motivation Featured Area CSS
   height: 75px;
   width: 75px;
   line-height: 75px;
-  background: linear-gradient(247.7deg, #806AFF 0%, #A049F7 70.91%);
+  background: linear-gradient(247.7deg, #806aff 0%, #a049f7 70.91%);
   border-radius: 15px;
   color: #ffffff;
   font-size: 35px;
@@ -13721,10 +14140,10 @@ Motivation Featured Area CSS
 Motivation Courses Area CSS
 =================================================*/
 .motivation-courses-area.bg-FAF8F8 {
-  background-color: #FAF8F8;
+  background-color: #faf8f8;
 }
 .motivation-courses-area.with-border-bottom-color .container {
-  border-bottom: 1px solid #E5E5E5;
+  border-bottom: 1px solid #e5e5e5;
 }
 
 .single-motivation-courses-box {
@@ -13990,7 +14409,7 @@ Motivation Courses Area CSS
 Motivation Categories Area CSS
 =================================================*/
 .motivation-categories-area {
-  background: #FAF8F8;
+  background: #faf8f8;
   overflow: hidden;
   position: relative;
   z-index: 1;
@@ -14185,7 +14604,7 @@ Motivation Partner Area CSS
   border-radius: 0;
   margin-left: 0;
   margin-right: 0;
-  background: linear-gradient(270deg, #FF305B 0%, #FD6E00 50%, #FF3142 100%);
+  background: linear-gradient(270deg, #ff305b 0%, #fd6e00 50%, #ff3142 100%);
 }
 .motivation-partner-area .single-partner-item {
   text-align: center;
@@ -14207,7 +14626,7 @@ Motivation Offer Area CSS
 =================================================*/
 .motivation-offer-area {
   overflow: hidden;
-  background-color: #FAF8F8;
+  background-color: #faf8f8;
 }
 .motivation-offer-area .container-fluid {
   padding-left: 0;
@@ -14400,7 +14819,7 @@ Motivation Mission Area CSS
 =================================================*/
 .motivation-mission-area {
   overflow: hidden;
-  background-color: #FAF8F8;
+  background-color: #faf8f8;
 }
 .motivation-mission-area .container-fluid {
   padding-left: 0;
@@ -14740,7 +15159,7 @@ Education Course Banner Area CSS
   transform: translateY(-50%) translateX(-2%);
 }
 .education-categories-item.marketing .icon {
-  background: linear-gradient(208.49deg, #24CFDD 9.31%, #94FA8C 93.21%);
+  background: linear-gradient(208.49deg, #24cfdd 9.31%, #94fa8c 93.21%);
 }
 .education-categories-item.business {
   bottom: 15%;
@@ -14748,7 +15167,7 @@ Education Course Banner Area CSS
   transform: translateY(-15%) translateX(-30%);
 }
 .education-categories-item.business .icon {
-  background: linear-gradient(208.49deg, #2F94F8 9.31%, #7ADAF0 93.21%);
+  background: linear-gradient(208.49deg, #2f94f8 9.31%, #7adaf0 93.21%);
 }
 .education-categories-item.health {
   top: 10%;
@@ -14756,7 +15175,7 @@ Education Course Banner Area CSS
   transform: translateY(-10%) translateX(-12%);
 }
 .education-categories-item.health .icon {
-  background: linear-gradient(208.49deg, #3A41A1 9.31%, #B8C3FB 93.21%);
+  background: linear-gradient(208.49deg, #3a41a1 9.31%, #b8c3fb 93.21%);
 }
 .education-categories-item.science {
   bottom: 40%;
@@ -14764,7 +15183,7 @@ Education Course Banner Area CSS
   transform: translateY(-40%) translateX(-2%);
 }
 .education-categories-item.science .icon {
-  background: linear-gradient(208.49deg, #FABC42 9.31%, #EA6495 93.21%);
+  background: linear-gradient(208.49deg, #fabc42 9.31%, #ea6495 93.21%);
 }
 .education-categories-item.graphics-design {
   bottom: 10%;
@@ -14772,7 +15191,7 @@ Education Course Banner Area CSS
   transform: translateY(-10%) translateX(-10%);
 }
 .education-categories-item.graphics-design .icon {
-  background: linear-gradient(234.34deg, #F25984 0.81%, #FDB3B2 97.9%);
+  background: linear-gradient(234.34deg, #f25984 0.81%, #fdb3b2 97.9%);
 }
 
 /*================================================
@@ -14796,7 +15215,7 @@ Overview Connections Area CSS
   margin-bottom: 0;
 }
 .overview-connections-area.bg-FAF8F8 {
-  background-color: #FAF8F8;
+  background-color: #faf8f8;
   margin-top: -162px;
   padding-top: 255px;
 }
@@ -14835,12 +15254,12 @@ Become Box Area CSS
 }
 
 .become-box-item {
-  background: linear-gradient(283.99deg, #FF305B 0.51%, #FD6E00 32.63%, #FF3142 100%);
+  background: linear-gradient(283.99deg, #ff305b 0.51%, #fd6e00 32.63%, #ff3142 100%);
   border-radius: 15px;
   padding: 15px 55px 15px 0px;
 }
 .become-box-item.with-gradient-color {
-  background: linear-gradient(247.7deg, #806AFF 0%, #A049F7 70.91%);
+  background: linear-gradient(247.7deg, #806aff 0%, #a049f7 70.91%);
   padding: 18.5px 55px 18.5px 0px;
 }
 .become-box-item .become-box-content {
@@ -14865,7 +15284,7 @@ Become Box Area CSS
 Testimonials Area CSS
 =================================================*/
 .testimonials-wrap-area {
-  background: #FAF8F8;
+  background: #faf8f8;
   overflow: hidden;
 }
 .testimonials-wrap-area .container-fluid {
@@ -14873,14 +15292,14 @@ Testimonials Area CSS
   padding-right: 0;
 }
 .testimonials-wrap-area.bg-E7F0FD {
-  background-color: #E7F0FD;
+  background-color: #e7f0fd;
   margin-bottom: -155px;
   padding-bottom: 245px;
 }
 
 .testimonials-wrap-slides-item {
   background: #ffffff;
-  border: 1px solid #E5E5E5;
+  border: 1px solid #e5e5e5;
   border-radius: 10px;
   padding: 35px;
   transition: 0.5s;
@@ -14936,12 +15355,12 @@ Testimonials Area CSS
   width: 10px;
   height: 10px;
   margin: 0 5px;
-  background: linear-gradient(30deg, #FD6D6D 13.39%, #ED3389 50%, #D837BF 86.61%);
+  background: linear-gradient(30deg, #fd6d6d 13.39%, #ed3389 50%, #d837bf 86.61%);
   transition: 0.5s;
   border-radius: 30px;
 }
 .testimonials-wrap-slides.owl-theme .owl-dots .owl-dot:hover span, .testimonials-wrap-slides.owl-theme .owl-dots .owl-dot.active span {
-  background: linear-gradient(30deg, #FD6D6D 13.39%, #ED3389 50%, #D837BF 86.61%);
+  background: linear-gradient(30deg, #fd6d6d 13.39%, #ed3389 50%, #d837bf 86.61%);
 }
 .testimonials-wrap-slides.owl-theme .owl-dots .owl-dot.active span {
   width: 50px;
@@ -15022,7 +15441,7 @@ Funfacts Style Area CSS
   top: 0;
   height: 100%;
   z-index: -1;
-  background: #0E2742;
+  background: #0e2742;
   border-radius: 300px 0px 0px 300px;
   width: 98%;
 }
@@ -15053,7 +15472,7 @@ Funfacts Style Area CSS
   content: "";
   height: 50px;
   width: 50px;
-  background: #EA9927;
+  background: #ea9927;
   left: -10px;
   top: -10px;
   z-index: -1;
@@ -15061,13 +15480,13 @@ Funfacts Style Area CSS
   border-radius: 50px;
 }
 .single-funfact-card .icon.bg-0B767A::before {
-  background: #0B767A;
+  background: #0b767a;
 }
 .single-funfact-card .icon.bg-9879B6::before {
-  background: #9879B6;
+  background: #9879b6;
 }
 .single-funfact-card .icon.bg-FF1949::before {
-  background: #FF1949;
+  background: #ff1949;
 }
 .single-funfact-card h3 {
   margin-bottom: 10px;
@@ -15201,7 +15620,7 @@ Training Overview Area CSS
   top: 0;
   height: 100%;
   z-index: -1;
-  background: #0E2742;
+  background: #0e2742;
   border-radius: 0 300px 300px 0;
   width: 98%;
 }
@@ -15393,4 +15812,16 @@ Buy Now Btn
 .exam-ad img {
   width: 100%;
   margin-top: 30px;
+}
+
+.class-update {
+  text-align: center;
+  padding-bottom: 40px;
+}
+.class-update h3 {
+  color: #ff0000;
+  margin-bottom: 0;
+}
+.class-update h4 {
+  color: #ff0000;
 }/*# sourceMappingURL=style.css.map */
