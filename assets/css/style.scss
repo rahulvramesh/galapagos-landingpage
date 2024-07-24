@@ -18628,3 +18628,18 @@ Buy Now Btn
         color: #ff0000;
     }
 }
+
+.termsul {
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+    color: #fff;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    li a {
+        color: #fff;
+        font-size: 14px;
+    }
+}
