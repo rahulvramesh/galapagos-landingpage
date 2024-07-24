@@ -156,9 +156,9 @@ const injectTags = (htmlContent, page) => {
 
 // Function to read and cache the HTML file
 const getHtmlContent = async (filePath, page) => {
-  if (cache[filePath]) {
-    return cache[filePath];
-  }
+  // if (cache[filePath]) {
+  //   return cache[filePath];
+  // }
   const htmlContent = await fs.readFile(filePath, "utf8");
   const modifiedContent = injectTags(htmlContent, page);
   cache[filePath] = modifiedContent;
