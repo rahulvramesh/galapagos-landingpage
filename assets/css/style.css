@@ -15833,10 +15833,25 @@ Buy Now Btn
   color: #fff;
   list-style: none;
   display: flex;
-  gap: 20px;
+  flex-wrap: wrap;
+  gap: 5px;
   justify-content: center;
+}
+.termsul li {
+  margin: 0 10px;
 }
 .termsul li a {
   color: #fff;
   font-size: 14px;
+}
+
+.copyright {
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  margin-top: 5px;
+}
+
+.terms-body a {
+  color: #005d40;
 }/*# sourceMappingURL=style.css.map */
